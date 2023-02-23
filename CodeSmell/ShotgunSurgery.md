@@ -18,7 +18,7 @@ Una sola responsabilidad se ha dividido entre un gran número de clases. Esto pu
 
 * Usa el [método de movimiento](https://refactoring.guru/es/move-method) y el [movimiento de campo](/./RefactoringPattern/MoveField.md) para mover comportamientos existentes de una clase a una sola clase, Si no hay una clase apropiada para esto, crea una nueva.
 
-* Si mover código a la misma clase deja las clases originales casi vacía, intenta encargarte de estas clases ahora redundantes mediante la [clase alineada](https://refactoring.guru/es/inline-class).
+* Si mover código a la misma clase deja las clases originales casi vacía, intenta encargarte de estas clases ahora redundantes mediante la [clase alineada](/./RefactoringPattern/InlineClass.md).
 
 ![](https://refactoring.guru/images/refactoring/content/smells/shotgun-surgery-03.png?id=cf013f14eb5cde98bd48595a1c9836a9)
 
