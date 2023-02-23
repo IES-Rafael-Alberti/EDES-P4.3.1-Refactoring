@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d54e61d0-830d-4614-9279-afe0c31997b2" name="Changes" comment="Reemplazar método con objeto de método (Replace Method with Method Object)">
+    <list default="true" id="d54e61d0-830d-4614-9279-afe0c31997b2" name="Changes" comment="Generalidad Especulativa (Speculative Generality)">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_02_2023_11_38__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_02_2023_11_38__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +17,7 @@
     <branch-grouping />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="27-code-smells-couplers-inappropriate-intimacy" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -108,7 +109,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/32-refactoring-composing-methods-replace-method-with-method-object" />
+                        <option value="origin/43-code-smells-dispensables-speculative-generality" />
                       </list>
                     </value>
                   </entry>
