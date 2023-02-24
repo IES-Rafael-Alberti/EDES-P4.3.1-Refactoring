@@ -12,6 +12,12 @@ Entonces, si una clase no hace lo suficiente para llamar tu atencion, debe elimi
 Quizas la clase fue diseñada para cumplir una función, pero después de algunas de las refactorizaciones se ha vuelto ridículamente pequeña. 
 O tal vez fue diseñado para apoyar el trabajo de desarrollo futuro y al final nunca se hizo.
 
+Ejemplo:
+
+![img.png](fotos_ejemplos/img.png)
+
+En este caso la funcion resaltada en azul sobra ya que no es llamada en ningún momento.
+
 ## Tratamiento
 
 Los componentes que son casi inútiles deben recibir el tratamiento de clase en línea.
