@@ -4,6 +4,7 @@
 
 Para que una porción de código funcione correctamente, ciertas condiciones o valores deben ser verdaderos.
 
+'''Java
 double getExpenseLimit() {
 // Debe tener límite de gastos o
 // un proyecto principal.
@@ -11,12 +12,13 @@ return (expenseLimit != NULL_EXPENSE) ?
 expenseLimit :
 primaryProject.getMemberExpenseLimit();
 }
+'''
 
 ## Solución
 
 Reemplace estas suposiciones con comprobaciones de afirmación específicas.
 
-
+'''Java
 double getExpenseLimit() {
 Assert.isTrue(expenseLimit != NULL_EXPENSE || primaryProject != null);
 
@@ -24,6 +26,7 @@ return (expenseLimit != NULL_EXPENSE) ?
 expenseLimit:
 primaryProject.getMemberExpenseLimit();
 }
+'''
 
 ## Por qué refactorizar
 
@@ -52,4 +55,5 @@ Agregar la afirmación no debería cambiar el comportamiento del programa.
 No exagere el uso de afirmaciones para todo en su código. Verifique solo las condiciones que son necesarias para el correcto funcionamiento del código. Si su código funciona normalmente incluso cuando una afirmación en particular es falsa, puede eliminarla de manera segura.
 
 ## Elimina olor
+
 [Comments](../CodeSmell/Comments.md)
