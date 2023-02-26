@@ -14,13 +14,13 @@ Mover esta porción idéntica a su propia interfaz.
 
 ## Por qué refactorizar
 
-1. Las interfaces son muy apropiadas cuando las clases juegan roles especiales en diferentes situaciones. Use Extraer interfaz para indicar explícitamente qué papel.
+1. Las interfaces son muy apropiadas cuando las clases juegan roles especiales en diferentes situaciones. Use [Extraer interfaz] para indicar explícitamente qué papel.
 
 2. Otro caso conveniente surge cuando es necesario describir las operaciones que una clase realiza en su servidor. Si se planea permitir el uso de servidores de múltiples tipos, todos los servidores deben implementar la interfaz.
 
 ## Bueno saber
 
-Hay cierta similitud entre [Extraer superclase](../RefactoringPattern/ExtractSuperclass.md) y Extraer interfaz.
+Hay cierta similitud entre [Extraer superclase](../RefactoringPattern/ExtractSuperclass.md) y [Extraer interfaz].
 
 Extraer una interfaz permite aislar solo las interfaces comunes, no el código común. En otras palabras, si las clases contienen [Código duplicado](../CodeSmell/DuplicateCode.md), extraer la interfaz no le ayudará a eliminar la duplicación.
 
@@ -37,3 +37,5 @@ De todas formas, este problema se puede mitigar aplicando [Extraer clase](../Ref
 4. Cambiar las declaraciones de tipo en el código del cliente para usar la nueva interfaz.
 
 ## Refactorizacion similar
+
+[Extraer Superclase](../RefactoringPattern/ExtractSuperclass.md)
