@@ -4,18 +4,20 @@
 
 Tienes un constructor complejo que hace algo más que simplemente establecer valores de parámetros en campos de objeto.
 
+'''Java
 class Empleado {
 Empleado(int tipo) {
 this.tipo = tipo;
 }
 // ...
 }
+'''
 
 ## Solución
 
 Crea un método de fábrica y úsalo para reemplazar las llamadas al constructor.
 
-
+'''Java
 class Empleado {
 static Empleado crear(int tipo) {
 empleado = new Empleado(tipo);
@@ -24,6 +26,7 @@ return empleado;
 }
 // ...
 }
+'''
 
 ## Por qué Refactorizar
 
@@ -37,7 +40,7 @@ Los métodos de fábrica también se pueden usar en otras situaciones, cuando lo
 
 Un método de fábrica no necesariamente devuelve un objeto de la clase en la que se llamó. A menudo, pueden ser sus subclases, seleccionadas en función de los argumentos dados al método.
 
-Un método de fábrica puede tener un nombre mejor que describa qué y cómo devuelve lo que hace, por ejemplo Troops::GetCrew(miTanque).
+Un método de fábrica puede tener un nombre mejor que describa qué y cómo devuelve lo que hace, por ejemplo ''Java Troops::GetCrew(miTanque).'''
 
 Un método de fábrica puede devolver un objeto que ya se ha creado, a diferencia de un constructor, que siempre crea una nueva instancia.
 
@@ -54,6 +57,7 @@ Un método de fábrica puede devolver un objeto que ya se ha creado, a diferenci
 ## Ayuda otras refactorizaciones
 
 [Cambiar valor por referencia](../RefactoringPattern/ChangeValueToReference.md)
+
 [Reemplazar Codigo Tipo con Subclasses](../RefactoringPattern/ReplaceTypeCodeWithSubClass.md)
 
 ## Implementa Patron de Diseno
