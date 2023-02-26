@@ -4,6 +4,7 @@
 
 Tienes múltiples condicionales que conducen al mismo resultado o acción.
 
+'''Java
 double disabilityAmount() {
 if (seniority < 2) {
 return 0;
@@ -17,13 +18,13 @@ return 0;
 // Compute the disability amount.
 // ...
 }
+'''
 
 ## Solución
 
 Consolida todos estos condicionales en una sola expresión.
-JavaC#PHPPythonTypeScript
 
-
+'''Java
 double disabilityAmount() {
 if (isNotEligibleForDisability()) {
 return 0;
@@ -31,6 +32,7 @@ return 0;
 // Compute the disability amount.
 // ...
 }
+'''
 
 ## Por qué refactorizar
 
@@ -54,7 +56,8 @@ Antes de refactorizar, asegúrate de que los condicionales no tengan ningún "ef
 
     Los condicionales consecutivos se unen con or.
 
-2. Realiza Extract Method en las condiciones del operador y da un nombre al método que refleje el propósito de la expresión
+2. Realiza [Extract Method](../RefactoringPattern/ExtractMethod.md) en las condiciones del operador y da un nombre al método que refleje el propósito de la expresión
 
 ## Elimina olor
+
 [Codigo Duplicado](../CodeSmell/DuplicateCode.md)
