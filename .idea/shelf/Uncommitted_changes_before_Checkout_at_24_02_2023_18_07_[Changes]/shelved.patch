@@ -1,0 +1,65 @@
+Index: CodeSmell/LazyClass.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Clase perezosa (Lazy Class)\r\n\r\n## Síntomas y signos\r\n\r\nEntender y mantener las clases siempre cuestan tiempo y dinero. \r\nEntonces, si una clase no hace lo suficiente para llamar tu atencion, debe eliminarse.\r\n\r\n![](https://refactoring.guru/images/refactoring/content/smells/lazy-class-01.png?id=efec5911dfaaa3ba69d3eb4dab03fd3c)\r\n\r\n## Razones del problema\r\n\r\nQuizas la clase fue diseñada para cumplir una función, pero después de algunas de las refactorizaciones se ha vuelto ridículamente pequeña. \r\nO tal vez fue diseñado para apoyar el trabajo de desarrollo futuro y al final nunca se hizo.\r\n\r\n## Tratamiento\r\n\r\nLos componentes que son casi inútiles deben recibir el tratamiento de clase en línea.\r\n\r\nPara subclases con pocas funciones, pruebe a contraer la jerarquía.\r\n\r\n![](https://refactoring.guru/images/refactoring/content/smells/lazy-class-02.png?id=393302f2bd27ba0197660caea274ae23)\r\n\r\n## Recompensa\r\n\r\nEl tamaño del código se reduce y el mantenimiento se vuelve mas fácil.\r\n\r\n## Cuando ignorar\r\n\r\nA veces se crea una Lazy Class con el fin de delinear intenciones para el desarrollo futuro, en este caso,\r\ntrate de mantener un equilibrio entre la claridad y la simplicidad en su código.
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/CodeSmell/LazyClass.md b/CodeSmell/LazyClass.md
+--- a/CodeSmell/LazyClass.md	(revision f74abb541c98d43733c3dd114de0feededae0da9)
++++ b/CodeSmell/LazyClass.md	(date 1677258455822)
+@@ -12,6 +12,8 @@
+ Quizas la clase fue diseñada para cumplir una función, pero después de algunas de las refactorizaciones se ha vuelto ridículamente pequeña. 
+ O tal vez fue diseñado para apoyar el trabajo de desarrollo futuro y al final nunca se hizo.
+ 
++Ejemplo:
++
+ ## Tratamiento
+ 
+ Los componentes que son casi inútiles deben recibir el tratamiento de clase en línea.
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"d54e61d0-830d-4614-9279-afe0c31997b2\" name=\"Changes\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2LrHoof6dSHCR1xUU8qfqAQ0Ymo\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"abbreviatePackageNames\" value=\"true\" />\r\n    <option name=\"autoscrollFromSource\" value=\"true\" />\r\n    <option name=\"flattenPackages\" value=\"true\" />\r\n    <option name=\"foldersAlwaysOnTop\" value=\"false\" />\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showExcludedFiles\" value=\"false\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n    <option name=\"showMembers\" value=\"true\" />\r\n    <option name=\"showModules\" value=\"false\" />\r\n    <option name=\"showVisibilityIcons\" value=\"true\" />\r\n    <option name=\"sortByType\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"last_opened_file_path\": \"C:/Users/usuariom/Desktop/EDES-P4.3.1-Refactoring\",\r\n    \"nodejs_package_manager_path\": \"npm\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"d54e61d0-830d-4614-9279-afe0c31997b2\" name=\"Changes\" comment=\"\" />\r\n      <created>1676622460351</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1676622460351</updated>\r\n      <workItem from=\"1676622463284\" duration=\"3529000\" />\r\n      <workItem from=\"1677049574057\" duration=\"49000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision f74abb541c98d43733c3dd114de0feededae0da9)
++++ b/.idea/workspace.xml	(date 1677177131246)
+@@ -8,6 +8,11 @@
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="29-techniques-simplifying-method-calls-rename-method" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="MarkdownSettingsMigration">
+@@ -28,15 +33,15 @@
+     <option name="showVisibilityIcons" value="true" />
+     <option name="sortByType" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "WebServerToolWindowFactoryState": "false",
+-    "last_opened_file_path": "C:/Users/usuariom/Desktop/EDES-P4.3.1-Refactoring",
+-    "nodejs_package_manager_path": "npm"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/usuariom/Desktop/EDES-P4.3.1-Refactoring&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">

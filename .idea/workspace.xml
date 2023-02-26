@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d54e61d0-830d-4614-9279-afe0c31997b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/RefactoringPattern/ejemplohidemethod/problemaRM.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RefactoringPattern/HideMethod.md" beforeDir="false" afterPath="$PROJECT_DIR$/RefactoringPattern/HideMethod.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
