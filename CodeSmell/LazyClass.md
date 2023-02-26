@@ -5,18 +5,14 @@
 Entender y mantener las clases siempre cuestan tiempo y dinero. 
 Entonces, si una clase no hace lo suficiente para llamar tu atencion, debe eliminarse.
 
+Normalmente la propia IDE te lo indica de alguna manera por ejemplo poniendote el nombre de la funcion en gris.
+
 ![](https://refactoring.guru/images/refactoring/content/smells/lazy-class-01.png?id=efec5911dfaaa3ba69d3eb4dab03fd3c)
 
 ## Razones del problema
 
 Quizas la clase fue diseñada para cumplir una función, pero después de algunas de las refactorizaciones se ha vuelto ridículamente pequeña. 
 O tal vez fue diseñado para apoyar el trabajo de desarrollo futuro y al final nunca se hizo.
-
-Ejemplo:
-
-![img.png](fotos_ejemplos/img.png)
-
-En este caso la funcion resaltada en azul sobra ya que no es llamada en ningún momento.
 
 ## Tratamiento
 

@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d54e61d0-830d-4614-9279-afe0c31997b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CodeSmell/fotos_ejemplos/img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_02_2023_19_04__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_02_2023_19_04__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeSmell.md" beforeDir="false" afterPath="$PROJECT_DIR$/CodeSmell.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeSmell/LazyClass.md" beforeDir="false" afterPath="$PROJECT_DIR$/CodeSmell/LazyClass.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeSmell/fotos_ejemplos/img.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,5 +78,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ejemplo hide method" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejemplo hide method" />
   </component>
 </project>
