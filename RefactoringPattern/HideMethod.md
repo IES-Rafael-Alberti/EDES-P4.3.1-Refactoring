@@ -5,7 +5,13 @@
 Un método no es utilizado por otras clases o solamente se utiliza dentro de su propia jerarquía de clases.
 
 ~~~~
-class rango_numero(val minimo:Int, val maximo:Int){...}
+class ServicioDeNumeros(private val minimo: Int =0, private val maximo: Int =100) {
+    var fuenteNumeros: MutableList<Int>
+    val listaNumeros: List<Int> by lazy {
+        List(maximo-minimo){
+            minimo+it
+        }
+    }
 ~~~~
 
 ## Solución
@@ -13,7 +19,13 @@ class rango_numero(val minimo:Int, val maximo:Int){...}
 Cambiar la forma del método para que este privada (private) o protegida (protected)
 
 ~~~~
-class rango_numero(private val minimo:Int, private val maximo:Int){...}
+class ServicioDeNumeros(private val minimo: Int =0, private val maximo: Int =100) {
+    private lateinit var fuenteNumeros: MutableList<Int>
+    private  val listaNumeros: List<Int> by lazy {
+        List(maximo-minimo){
+            minimo+it
+        }
+    }
 ~~~~
 
 ## Por qué Refactorizar
