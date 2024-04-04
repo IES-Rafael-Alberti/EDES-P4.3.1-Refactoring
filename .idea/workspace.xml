@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
-    <list default="true" id="344e1bf3-359c-4094-91a8-30528336b7a6" name="Changes" comment=""/>
-
-      <change afterPath="$PROJECT_DIR$/RefactoringPattern/PullUpField.md" afterDir="false" />
-
-      <change afterPath="$PROJECT_DIR$/RefactoringPattern/SeperateQueryFromModifier.md" afterDir="false" />
->>>>>>> 119-refactoring-simplifying-method-calls-seperate-query-from-modifier
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-
-    <list default="true" id="d54e61d0-830d-4614-9279-afe0c31997b2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RefactoringPattern/DescomposeConditional.md" beforeDir="false" afterPath="$PROJECT_DIR$/RefactoringPattern/DecomposeConditional.md" afterDir="false" />
->>>>>>> 63-refactoring-simplifying-conditional-expressions-decompose-conditional
+    <list default="true" id="344e1bf3-359c-4094-91a8-30528336b7a6" name="Changes" comment="&quot;descomposeCondicional ok&quot;">
+      <change beforePath="$PROJECT_DIR$/RefactoringPattern/DecomposeConditional.md" beforeDir="false" afterPath="$PROJECT_DIR$/RefactoringPattern/DecomposeConditional.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +21,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2LrHoof6dSHCR1xUU8qfqAQ0Ymo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -51,28 +40,12 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/django/DAW/Prog/Refactoring/EDES-P4.3.1-Refactoring&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  }
-}</component>
-
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "63-refactoring-simplifying-conditional-expressions-decompose-conditional",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/usuariom/Desktop/EDES-P4.3.1-Refactoring",
     "nodejs_package_manager_path": "npm"
   }
@@ -84,7 +57,6 @@
       </set>
     </attachedChunks>
   </component>
->>>>>>> 63-refactoring-simplifying-conditional-expressions-decompose-conditional
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -99,6 +71,15 @@
       <workItem from="1679642555974" duration="6389000" />
       <workItem from="1679989476417" duration="690000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;descomposeCondicional ok&quot;">
+      <option name="closed" value="true" />
+      <created>1712219000951</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712219000951</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +98,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Push de Smell code y Refactory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Push de Smell code y Refactory" />
+    <MESSAGE value="&quot;descomposeCondicional ok&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;descomposeCondicional ok&quot;" />
   </component>
 </project>
