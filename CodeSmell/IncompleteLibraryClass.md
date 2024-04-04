@@ -2,7 +2,7 @@
 
 ## Signos y síntomas
 
-Tarde o temprano, las bibliotecas dejan de satisfacer las necesidades de los usuarios. 
+Tarde o temprano, las [**bibliotecas**](https://es.wikipedia.org/wiki/Biblioteca_(inform%C3%A1tica)) dejan de satisfacer las necesidades de los usuarios. 
 La única solución al problema, cambiar la biblioteca, a menudo es imposible ya que la biblioteca es de solo lectura.
 
 ![](https://refactoring.guru/images/refactoring/content/smells/incomplete-library-class-01.png)
@@ -11,9 +11,8 @@ La única solución al problema, cambiar la biblioteca, a menudo es imposible ya
 El autor de la biblioteca no ha proporcionado las funciones que necesita o se ha negado a implementarlas.
 
 ## Tratamiento
-Para introducir algunos métodos en una clase de biblioteca, utilice [Introduce Foreign Method](https://github.com/IES-Rafael-Alberti/EDES-P4.3.1-Refactoring/blob/main/RefactoringPattern/RefactoringPatternIntroduce-Foreign-Method.md) .
-
-Para grandes cambios en una biblioteca de clases, use [Introduce Local Extension](https://github.com/IES-Rafael-Alberti/EDES-P4.3.1-Refactoring/blob/main/RefactoringPattern/IntroduceLocalExtension.md) .
+- Para introducir algunos métodos en una clase de biblioteca, utilice [Introduce Método extranjero](../RefactoringPattern/IntroduceForeignMethod.md) .
+- Para grandes cambios en una biblioteca de clases, use [Introduce Extensión Local](../RefactoringPattern/IntroduceLocalExtension.md) .
 
 ## Beneficios
 
