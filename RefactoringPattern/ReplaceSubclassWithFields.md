@@ -8,7 +8,7 @@ Tienes subclases que difieren solo en sus métodos (que devuelven constantes).
 ## Solución
 Reemplaza los métodos con campos en la clase padre y elimina las subclases.
 
-![Reemplazar Delegación con Campos - Después](https://refactoring.guru/images/refactoring/diagrams/Replace%20Subclass%20with%20Fields%20-%20After.png?id=bd1b29687aa333b3adbeb2bfb3e78614)
+![Reemplazar Delegación con Campos - Después](https://refactoring.guru/images/refactoring/diagrams/Replace%20Subclass%20with%20Fields%20-%20After.png?id=bd1b29687aa333b3adbeb2bfb3e78614) 
 
 ## Por qué Refactorizar
 
