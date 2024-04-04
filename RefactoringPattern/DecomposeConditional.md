@@ -19,7 +19,7 @@ if (isSummer(date)) {
 } else {
     charge = winterCharge(quantity)
 }
-```
+``` 
 
 ## Por qué refactorizar
 Cuanto más largo sea un fragmento de código, más dificil de entender será. Cuando el código está lleno de condicionales la dificultad se incrementa:
