@@ -1,4 +1,4 @@
-# Jerarquías de herencia paralelas
+# Jerarquías de herencia paralelas (Parallel Inheritance Hierarchies)
 
 ## Signos y síntomas
 
@@ -8,11 +8,11 @@ Cada vez que crea una subclase para una clase, se encuentra con la necesidad de 
 
 ## Razones del problema
 
-Todo iba bien mientras la jerarquía se mantuviera pequeña. Pero con la adición de nuevas clases, hacer cambios se ha vuelto cada vez más difícil.
+Todo iba bien mientras la jerarquía era simple. Pero al añadir nuevas clases, hacer cambios se ha vuelto cada vez más difícil.
 
 ## Tratamiento
 
-Puede desduplicar jerarquías de clases paralelas en dos pasos. Primero, haga que las instancias de una jerarquía se refieran a instancias de otra jerarquía. Luego, elimine la jerarquía en la clase referida, usando Move Method y Move Field.
+Puede desduplicar jerarquías de clases paralelas en dos pasos. Primero, haga que las instancias de una jerarquía se refieran a instancias de otra jerarquía. Luego, elimine la jerarquía en la clase referida, usando [Mover Método](../RefactoringPattern/MoveMethod.md) y [Mover Campo](../RefactoringPattern/MoveField.md).
 
 ## Saldar
 
