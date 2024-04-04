@@ -5,9 +5,9 @@
 Tiene una variable local que se usa para almacenar varios valores intermedios dentro de un método (excepto las variables de ciclo).
 
 ```Kotlin
-val temp = 2 * (altura + longitud)
+val temp = 2 * (height + width)
 println(temp)
-val temp = altura * longitud
+val temp = height * width
 println(temp)
 ```
 
@@ -16,9 +16,9 @@ println(temp)
 Utilice diferentes variables para diferentes valores. Cada variable debe ser responsable de una sola cosa en particular.
 
 ``` Kotlin
-val perimetro = 2 * (altura + longitud)
-println(perimetro)
-val area = altura * longitud
+val perimeter = 2 * (height + width)
+println(perimeter)
+val area = height * width
 println(area)
 ```
 
