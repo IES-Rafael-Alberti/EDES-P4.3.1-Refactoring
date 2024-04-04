@@ -36,6 +36,6 @@ Si está escatimando en el número de variables dentro de una función y reutili
 
 1. Encuentra el primer lugar en el código donde se da un valor a la variable. Aquí debe cambiar el nombre de la variable con un nombre que corresponda al valor que se le está asignando.
 
-2. Utiliza el nuevo nombre en lugar del antiguo en los lugares donde se utilice este valor de la variable.
+2. Utilice el nuevo nombre en lugar del antiguo en los lugares donde se utilice este valor de la variable.
 
-3. Repite según sea necesario para los lugares donde a la variable se le asigna un valor diferente.
+3. Repita el procedimiento según sea necesario para los lugares en los que se asigne un valor diferente a la variable.
