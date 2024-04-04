@@ -11,7 +11,7 @@ if (date.before(SUMMER_START) || date.after(SUMMER_END)) {
 }
 ```
 
-## Solución
+## Solución 
 Descomponga las partes complicadas del condicional en métodos separados: la condición `then` y `else`.
 ```kotlin
 if (isSummer(date)) {
