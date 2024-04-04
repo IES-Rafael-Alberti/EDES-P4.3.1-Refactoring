@@ -6,7 +6,7 @@
 ![](https://refactoring.guru/images/refactoring/diagrams/Duplicate%20Observed%20Data%20-%20Before.png?id=bd26ed6d7d9921504165fd46b7f6124c)
 
 ## Solución
-Entonces es una buena idea separar los datos en clases separadas, asegurando la conexión y sincronización entre la clase de dominio y la GUI.
+Entonces es una buena idea separar los datos en clases separadas, asegurando la conexión y sincronización entre la clase de dominio y la GUI. 
 
 ![](https://refactoring.guru/images/refactoring/diagrams/Duplicate%20Observed%20Data%20-%20After.png?id=b86fa0ff2f9ff7c76d4a183607153458)
 
