@@ -40,3 +40,7 @@ Las referencias son mucho más difíciles de implementar.
 
 4.Cambie el método de fábrica para que devuelva una referencia. Si los objetos se crean con anticipación, decida cómo manejar los errores cuando se solicite un objeto inexistente. Es posible que también deba usar [Renombrar Método](
 ./RenameMethod.md) para informar que el método solo devuelve objetos existentes.
+
+
+## Anti-refactorización
+[Cambiar referencia a valor](/RefactoringPattern/ChangeValueToReference.md)
