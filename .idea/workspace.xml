@@ -7,7 +7,7 @@
     <list default="true" id="344e1bf3-359c-4094-91a8-30528336b7a6" name="Changes" comment="&quot;descomposeCondicional ok&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_02_2023_11_38__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_02_2023_11_38__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RefactoringPattern/HideMethod.md" beforeDir="false" afterPath="$PROJECT_DIR$/RefactoringPattern/HideMethod.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RefactoringPattern/ReplaceParameterWithMethodCall.md" beforeDir="false" afterPath="$PROJECT_DIR$/RefactoringPattern/ReplaceParameterWithMethodCall.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "200-review-refactoring---simplifying-method-calls---hide-method",
+    "git-widget-placeholder": "201-review-refactoring---simplifying-method-calls---replace-parameter-wit…-call",
     "last_opened_file_path": "C:/Users/usuariom/Desktop/EDES-P4.3.1-Refactoring",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
