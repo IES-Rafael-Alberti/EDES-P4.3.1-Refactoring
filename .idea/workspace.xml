@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="344e1bf3-359c-4094-91a8-30528336b7a6" name="Changes" comment="&quot;descomposeCondicional ok&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RefactoringPattern/RemoveSettingMethod.md" beforeDir="false" afterPath="$PROJECT_DIR$/RefactoringPattern/RemoveSettingMethod.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RefactoringPattern/PreserveWholeObject.md" beforeDir="false" afterPath="$PROJECT_DIR$/RefactoringPattern/PreserveWholeObject.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
