@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="344e1bf3-359c-4094-91a8-30528336b7a6" name="Changes" comment="&quot;descomposeCondicional ok&quot;">
+    <list default="true" id="344e1bf3-359c-4094-91a8-30528336b7a6" name="Changes" comment="revision ok. minimo cambio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RefactoringPattern/PreserveWholeObject.md" beforeDir="false" afterPath="$PROJECT_DIR$/RefactoringPattern/PreserveWholeObject.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RefactoringPattern/ReplaceDataValueWithObject.md" beforeDir="false" afterPath="$PROJECT_DIR$/RefactoringPattern/ReplaceDataValueWithObject.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "204-review-refactoring---simplifying-method-calls---remove-setting-method",
+    "git-widget-placeholder": "221-review-refactoring---organizing-data---replace-data-value-with-object",
     "last_opened_file_path": "C:/Users/usuariom/Desktop/EDES-P4.3.1-Refactoring",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -109,6 +109,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Push de Smell code y Refactory" />
     <MESSAGE value="&quot;descomposeCondicional ok&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;descomposeCondicional ok&quot;" />
+    <MESSAGE value="revision ok. minimo cambio" />
+    <option name="LAST_COMMIT_MESSAGE" value="revision ok. minimo cambio" />
   </component>
 </project>
