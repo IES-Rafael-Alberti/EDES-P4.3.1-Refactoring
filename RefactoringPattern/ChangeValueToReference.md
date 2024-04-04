@@ -1,14 +1,15 @@
-# Cambiar valor a referencia
+# Cambiar valor a referencia (Change Value to Reference)
 
 ## Problema
 
 Hay muchas instancias idénticas de una sola clase que necesita reemplazar con un solo objeto.
 
+![Alt text](https://refactoring.guru/images/refactoring/diagrams/Change%20Value%20to%20Reference%20-%20Before.png?id%3Db2e65e5bb87366e8195bab6933c15250)
+
+
 ## Solución
 
 Convierta los objetos idénticos en un solo objeto de referencia.
-
-![Alt text](https://refactoring.guru/images/refactoring/diagrams/Change%20Value%20to%20Reference%20-%20Before.png?id%3Db2e65e5bb87366e8195bab6933c15250)
 
 ![Alt text](https://refactoring.guru/images/refactoring/diagrams/Change%20Value%20to%20Reference%20-%20After.png?id%3D20d3bdea32264097859011bacb4ff19f)
 
