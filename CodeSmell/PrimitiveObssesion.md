@@ -21,15 +21,15 @@ Otro ejemplo de mal uso de primitivos es la simulación de campos. La clase cont
 
 ## Tratamiento
 
--Si tienes una gran variedad de campos primitivos, puede ser posible agrupar lógicamente algunos de ellos en su propia clase. Aún mejor, mueve el comportamiento asociado con estos datos también a la clase. Para esta tarea, prueba Reemplazar Valor de Datos con Objeto.
+-Si tienes una gran variedad de campos primitivos, puede ser posible agrupar lógicamente algunos de ellos en su propia clase. Aún mejor, mueve el comportamiento asociado con estos datos también a la clase. Para esa tarea, prueba Reemplazar Valor de Datos con Objeto.
 
 ![imagen](https://refactoring.guru/images/refactoring/content/smells/primitive-obsession-01.png)
 
--Si los valores de los campos primitivos se usan en los parámetros de los métodos, utiliza Introducir Objeto de Parámetro o Preservar Objeto Completo.
+-Si los valores de los campos primitivos se usan en los parámetros de los métodos, utiliza Introducir Objeto de Parámetro o [Preservar Objeto Completo](https://github.com/IES-Rafael-Alberti/EDES-P4.3.1-Refactoring/blob/main/RefactoringPattern/PreserveWholeObject.md).
 
--Cuando datos complicados están codificados en variables, utiliza Reemplazar Código de Tipo con Clase, Reemplazar Código de Tipo con Subclases o Reemplazar Código de Tipo con Estado/Estrategia.
+-Cuando datos complicados están codificados en variables, [utiliza Reemplazar Código de Tipo con Clase](https://github.com/IES-Rafael-Alberti/EDES-P4.3.1-Refactoring/blob/main/RefactoringPattern/ReplaceTypeCodeWithClass.md), [Reemplazar Código de Tipo con Subclases](https://github.com/IES-Rafael-Alberti/EDES-P4.3.1-Refactoring/blob/main/RefactoringPattern/ReplaceTypeCodewithClass.md) o [Reemplazar Código de Tipo con Estado/Estrategia](https://github.com/IES-Rafael-Alberti/EDES-P4.3.1-Refactoring/blob/main/ReplaceTypeCodeWithStateStrategy.md).
 
--Si hay matrices entre las variables, utiliza Reemplazar Matriz con Objeto.
+-Si hay matrices entre las variables, utiliza [Reemplazar Matriz con Objeto](https://github.com/IES-Rafael-Alberti/EDES-P4.3.1-Refactoring/blob/main/RefactoringPattern/ReplaceArrayWithObject.md).
 
 
 ![imagen](https://refactoring.guru/images/refactoring/content/smells/primitive-obsession-03.png)
