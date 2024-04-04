@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="344e1bf3-359c-4094-91a8-30528336b7a6" name="Changes" comment="&quot;descomposeCondicional ok&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_02_2023_11_38__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_02_2023_11_38__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RefactoringPattern/ReplaceParameterWithMethodCall.md" beforeDir="false" afterPath="$PROJECT_DIR$/RefactoringPattern/ReplaceParameterWithMethodCall.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeSmell/DivergentChange.md" beforeDir="false" afterPath="$PROJECT_DIR$/CodeSmell/DivergentChange.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,24 +41,25 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "201-review-refactoring---simplifying-method-calls---replace-parameter-wit…-call",
-    "last_opened_file_path": "C:/Users/usuariom/Desktop/EDES-P4.3.1-Refactoring",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;201-review-refactoring---simplifying-method-calls---replace-parameter-wit…-call&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/usuariom/Desktop/EDES-P4.3.1-Refactoring&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-e47b9c39" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -76,6 +76,7 @@
       <workItem from="1678100880774" duration="2976000" />
       <workItem from="1679642555974" duration="6389000" />
       <workItem from="1679989476417" duration="690000" />
+      <workItem from="1712248244394" duration="763000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;descomposeCondicional ok&quot;">
       <option name="closed" value="true" />
