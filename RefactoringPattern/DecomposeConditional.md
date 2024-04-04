@@ -1,4 +1,4 @@
-# Simplificar condicional (Descompose Conditional)
+# Descomponer condicional (Descompose Conditional)
 
 ## Problema
 Tienes un bloque condicional complejo (`if-then`/`else` o `switch`).
@@ -12,6 +12,7 @@ if (date.before(SUMMER_START) || date.after(SUMMER_END)) {
 ```
 
 ## Solución
+Descomponga las partes complicadas del condicional en métodos separados: la condición `then` y `else`.
 ```kotlin
 if (isSummer(date)) {
     charge = summerCharge(quantity)
@@ -32,3 +33,7 @@ Cuanto más largo sea un fragmento de código, más dificil de entender será. C
 ## Cómo refactorizar
 1. Extrae las condiciones a un método separado usando **Extraer método**.
 2. Repite el proceso para los bloques `then` y `else`.
+
+
+## Elimina el olor
+Enlace a [Método largo](/CodeSmell/LongMethod.md)
