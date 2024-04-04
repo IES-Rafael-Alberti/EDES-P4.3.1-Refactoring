@@ -1,6 +1,6 @@
 # Reemplazar el número mágico con una constante simbólica (Replace Magic Number with symbolic constant)
 
-## Problema
+## Problema 
 Su código utiliza un número que tiene un significado determinado.
 
 ```kotlin
