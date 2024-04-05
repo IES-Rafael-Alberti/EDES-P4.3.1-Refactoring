@@ -1,6 +1,6 @@
 # Reemplazar matriz con objeto
 
-Esta técnica de refactorización es un caso especial de **[Reemplazar valor de datos con objeto](/RefactoringPattern/ReplaceDataValueWithObject.md)** .
+> Esta técnica de refactorización es un caso especial de **[Reemplazar valor de datos con objeto](/RefactoringPattern/ReplaceDataValueWithObject.md)** .
 
 ## Problema 
 
