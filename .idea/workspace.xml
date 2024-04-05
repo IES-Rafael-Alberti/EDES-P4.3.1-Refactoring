@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="344e1bf3-359c-4094-91a8-30528336b7a6" name="Changes" comment="&quot;descomposeCondicional ok&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RefactoringPattern/PreserveWholeObject.md" beforeDir="false" afterPath="$PROJECT_DIR$/RefactoringPattern/PreserveWholeObject.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RefactoringPattern/DecomposeConditional.md" beforeDir="false" afterPath="$PROJECT_DIR$/RefactoringPattern/DecomposeConditional.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,11 +16,6 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -51,12 +45,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "204-review-refactoring---simplifying-method-calls---remove-setting-method",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/usuariom/Desktop/EDES-P4.3.1-Refactoring",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
