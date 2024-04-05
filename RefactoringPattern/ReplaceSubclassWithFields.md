@@ -3,12 +3,12 @@
 ## Problema
 Tienes subclases que difieren solo en sus métodos (que devuelven constantes).
 
-![Reemplazar Delegación con Campos - Antes](https://refactoring.guru/images/refactoring/diagrams/Replace%20Subclass%20with%20Fields%20-%20Before.png?id=ea6525cc6b55e1a03fdb35def943c675)
+![Reemplazar Delegación con Campos - Antes](./assets/ReplaceSubclasswithFields-Before.png)
 
 ## Solución
 Reemplaza los métodos con campos en la clase padre y elimina las subclases.
 
-![Reemplazar Delegación con Campos - Después](https://refactoring.guru/images/refactoring/diagrams/Replace%20Subclass%20with%20Fields%20-%20After.png?id=bd1b29687aa333b3adbeb2bfb3e78614) 
+![Reemplazar Delegación con Campos - Después](./assets/ReplaceSubclasswithFields-After.png) 
 
 ## Por qué Refactorizar
 
