@@ -39,7 +39,7 @@ Antes de comenzar con la refactorización, vea si hay referencias directas al ca
 use **[campo autoencapsulado](/RefactoringPattern/SelfEncapsulatedField.md)** del Campo para ocultarlo en la clase original.
 
 1. Cree una nueva clase y copie su campo y getter relevante. Además, cree un constructor que acepte el valor simple del 
-campo. Esta clase no tendrá un definidor o setter ya que cada nuevo valor de campo que se envíe a la clase original creará un nuevo 
+campo. Esta clase no tendrá un setter, ya que cada nuevo valor de campo que se envíe a la clase original creará un nuevo 
 objeto de valor.
 
 2. En la clase original, cambie el tipo de campo a la nueva clase.
@@ -58,17 +58,3 @@ almacenar docenas de objetos para un mismo valor.
 Con mayor frecuencia, este enfoque es necesario cuando se desea que un objeto sea responsable de un objeto del mundo 
 real (como usuarios, pedidos, documentos, etc.). Al mismo tiempo, este enfoque no será útil para objetos como fechas, 
 dinero, rangos, etc.
-
-## Refactorizaciones Similares
-
-[Extraer Clase](ExtractClass.md)
-
-[Introducir Objeto Parametro](/RefactoringPattern/IntroduceNullObject.md)
-
-[Reemplazar Array con Objeto](ReplaceArrayWithObject.md)
-
-[Reemplazar Metodo con Objeto Metodo](ReplaceMethodWithMethodObject.md)
-
-## Eliminar Olores
-
-[Codigo Duplicado](../CodeSmell/DuplicateCode.md)
