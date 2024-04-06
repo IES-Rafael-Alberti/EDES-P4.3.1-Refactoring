@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="344e1bf3-359c-4094-91a8-30528336b7a6" name="Changes" comment="&quot;descomposeCondicional ok&quot;">
-      <change beforePath="$PROJECT_DIR$/RefactoringPattern/DuplicateObservedData.md" beforeDir="false" afterPath="$PROJECT_DIR$/RefactoringPattern/DuplicateObservedData.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeSmell/assets/alternative-classes-with-different-interfaces-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeSmell/assets/alternative-classes-with-different-interfaces-02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeSmell/AlternativeClassesWithDifferentInterfaces.md" beforeDir="false" afterPath="$PROJECT_DIR$/CodeSmell/AlternativeClassesWithDifferentInterfaces.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,20 +48,25 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;222-review-refactoring---organizing-data---duplicate-observed-data&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/usuariom/Desktop/EDES-P4.3.1-Refactoring&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "232-review-code-smells-object-orientation-abusers-alternative-classes-wit…faces",
+    "last_opened_file_path": "C:/Users/usuariom/Desktop/EDES-P4.3.1-Refactoring",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shado\Documents\GitHub\EDES-P4.3.1-Refactoring\CodeSmell\assets" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
