@@ -9,15 +9,15 @@ El uso relativamente poco frecuente de los operadores switch y case es una de la
 Como regla general, cuando veas un switch, deberías pensar en polimorfismo.
 
 ## Tratamiento
-· Para aislar el switch y colocarlo en la clase correcta, es posible que necesites utilizar [Extract Method](/RefactoringPattern/ExtractMethod.md) y luego [Move Method.](/RefactoringPattern/MoveMethod.md)
+· Para aislar el switch y colocarlo en la clase correcta, es posible que necesites utilizar [Extract Method](../RefactoringPattern/ExtractMethod.md) y luego [Move Method.](../RefactoringPattern/MoveMethod.md)
 
-· Si un switch se basa en un código de tipo, como cuando se cambia el modo de ejecución del programa, utiliza [Replace Type Code with Subclasses](/RefactoringPattern/ReplaceTypeCodewithSubclasses.md) o [Replace Type Code with State/Strategy.](/RefactoringPattern/ReplaceTypeCodeWithStateStrategy.md)
+· Si un switch se basa en un código de tipo, como cuando se cambia el modo de ejecución del programa, utiliza [Replace Type Code with Subclasses](../RefactoringPattern/ReplaceTypeCodewithSubclasses.md) o [Replace Type Code with State/Strategy.](../RefactoringPattern/ReplaceTypeCodeWithStateStrategy.md)
 
-· Después de especificar la estructura de herencia, utiliza [Replace Conditional with Polymorphism.](/RefactoringPattern/ReplaceConditionalwithPolymorphism.md)
+· Después de especificar la estructura de herencia, utiliza [Replace Conditional with Polymorphism.](../RefactoringPattern/ReplaceConditionalwithPolymorphism.md)
 
-· Si no hay demasiadas condiciones en el operador y todas llaman al mismo método con diferentes parámetros, el polimorfismo será superfluo. En este caso, puedes dividir ese método en varios métodos más pequeños con [Replace Parameter with Explicit Methods](/RefactoringPattern/ReplaceParameterWithExplicitMethods.md) y cambiar el switch en consecuencia.
+· Si no hay demasiadas condiciones en el operador y todas llaman al mismo método con diferentes parámetros, el polimorfismo será superfluo. En este caso, puedes dividir ese método en varios métodos más pequeños con [Replace Parameter with Explicit Methods](../RefactoringPattern/ReplaceParameterWithExplicitMethods.md) y cambiar el switch en consecuencia.
 
-· Si una de las opciones condicionales es nula, utiliza [Introduce Null Object.](/RefactoringPattern/IntroduceNullObject.md)
+· Si una de las opciones condicionales es nula, utiliza [Introduce Null Object.](../RefactoringPattern/IntroduceNullObject.md)
 
 ## Beneficios
 Mejora de la organización del código.
