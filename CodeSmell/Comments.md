@@ -4,7 +4,7 @@
 
 Un método tiene que contener una cantidad significativa de comentarios que expliquen correctamente su funcionamiento.
 
-![imagen](/CodeSmell/assets/comments-01.png)
+![](../CodeSmell/assets/comments-01.png)
 
 ## Razones del problema
 
@@ -28,7 +28,7 @@ Si cree que un fragmento de código no se puede entender sin comentarios, intent
 
 * El código se vuelve más intuitivo y evidente.
 
-![imagen](/CodeSmell/assets/comments-02.png)
+![](../CodeSmell/assets/comments-02.png)
 
 ## Cuando ignorar
 
