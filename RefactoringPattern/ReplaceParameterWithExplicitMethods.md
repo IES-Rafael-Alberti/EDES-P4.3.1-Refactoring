@@ -1,4 +1,4 @@
-# Reemplazar parámetro con métodos explícitos (Replace Parameter with Explicit Methods)
+# Reemplazar parámetro con métodos explícitos
 
 ## Problema
 
@@ -37,7 +37,7 @@ Un método que contiene variantes dependientes de parámetros se ha vuelto masiv
 
 ## Beneficios
 
-Mejora la legibilidad del código. Es mucho más fácil entender el propósito de ``startEngine()`` que ``setValue("engineEnabled", true)``.
+Mejora la legibilidad del código. Es mucho más fácil entender el propósito de ``encenderMotor()`` que ``setValue("motorEncendido", true)``.
 
 ## Cuándo no usarlo
 
