@@ -1,14 +1,14 @@
 # Agregar Parametro (Add Parameter)
 
 ## Problema
-* Un método no tiene suficientes datos para realizar ciertas acciones.
+Un método no tiene suficientes datos para realizar ciertas acciones.
 
-![](https://refactoring.guru/images/refactoring/diagrams/Add%20Parameter%20-%20Before.png)
+![imagen](https://refactoring.guru/images/refactoring/diagrams/Add%20Parameter%20-%20Before.png)
 
 ## Solución
-* Cree un nuevo parámetro para pasar los datos necesarios.
+Cree un nuevo parámetro para pasar los datos necesarios.
 
-![](https://refactoring.guru/images/refactoring/diagrams/Add%20Parameter%20-%20After.png)
+![imagen](https://refactoring.guru/images/refactoring/diagrams/Add%20Parameter%20-%20After.png)
 
 ## Por qué refactorizar
 Necesita realizar cambios en un método y estos cambios requieren agregar información o datos que anteriormente no estaban disponibles para el método.
@@ -26,7 +26,7 @@ Si necesita agregar un nuevo parámetro, a veces esto significa que su clase no 
 
 1. Verifique si el método está definido en una superclase o subclase. Si el método está presente en ellas, deberá repetir todos los pasos en esas clases también.
 
-2. El siguiente paso es crítico para mantener su programa funcional durante el proceso de refactorización. Cree un nuevo método copiando el antiguo y agregue el parámetro necesario. Reemplace el código del antiguo método con una llamada al nuevo método. Puede agregar cualquier valor al nuevo parámetro (como null para objetos o cero para números).
+2. El siguiente paso es crítico para mantener su programa funcional durante el proceso de refactorización. Cree un nuevo método copiando el antiguo y agregue el parámetro necesario. Reemplace el código del antiguo método con una llamada al nuevo método. Puede agregar cualquier valor al nuevo parámetro (como `null` para objetos o cero para números).
 
 3. Encuentre todas las referencias al antiguo método y reemplácelas con referencias al nuevo método.
 
