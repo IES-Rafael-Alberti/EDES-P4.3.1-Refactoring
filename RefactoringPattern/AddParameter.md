@@ -3,12 +3,12 @@
 ## Problema
 Un método no tiene suficientes datos para realizar ciertas acciones.
 
-![imagen](https://refactoring.guru/images/refactoring/diagrams/Add%20Parameter%20-%20Before.png)
+![imagen](/RefactoringPattern/assets/Add%20Parameter%20-%20Before.png)
 
 ## Solución
 Cree un nuevo parámetro para pasar los datos necesarios.
 
-![imagen](https://refactoring.guru/images/refactoring/diagrams/Add%20Parameter%20-%20After.png)
+![imagen](/RefactoringPattern/assets/Add%20Parameter%20-%20After.png)
 
 ## Por qué refactorizar
 Necesita realizar cambios en un método y estos cambios requieren agregar información o datos que anteriormente no estaban disponibles para el método.
