@@ -3,12 +3,12 @@
 ## Problema
 Un parámetro no se utiliza en el cuerpo de un método.
 
-![imagen](https://refactoring.guru/images/refactoring/diagrams/Remove%20Parameter%20-%20Before.png)
+![imagen](/RefactoringPattern/assets/Remove%20Parameter%20-%20Before.png)
 
 ## Solución
 Elimina el parámetro no utilizado.
 
-![imagen](https://refactoring.guru/images/refactoring/diagrams/Remove%20Parameter%20-%20After.png)
+![imagen](/RefactoringPattern/assets/Remove%20Parameter%20-%20After.png)
 
 ## Por qué refactorizar
 Cada parámetro en una llamada de método obliga al programador que lo lee a descubrir qué información se encuentra en ese parámetro. Y si un parámetro no se utiliza en absoluto en el cuerpo del método, este "rascarse la cabeza" es en vano.
