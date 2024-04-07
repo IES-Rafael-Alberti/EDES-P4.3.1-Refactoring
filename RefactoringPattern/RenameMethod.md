@@ -4,13 +4,13 @@
 
 El nombre de un método no explica lo que hace el método.
 
-![](https://refactoring.guru/images/refactoring/diagrams/Rename%20Method%20-%20Before.png?id=7943798ae9db6b5b232860eed6262462)
+![imagen](https://refactoring.guru/images/refactoring/diagrams/Rename%20Method%20-%20Before.png?id=7943798ae9db6b5b232860eed6262462)
 
 ## Solución
 
 Renombrar el método para que quede más claro que realiza dicho método.
 
-![](https://refactoring.guru/images/refactoring/diagrams/Rename%20Method%20-%20After.png?id=62b4e6747951bbbacba3ede379fef200)
+![imagen](https://refactoring.guru/images/refactoring/diagrams/Rename%20Method%20-%20After.png?id=62b4e6747951bbbacba3ede379fef200)
 
 ## Por qué Refactorizar
 Tal vez un método fue mal nombrado desde el principio, por ejemplo, 
@@ -22,7 +22,7 @@ pero a medida que su funcionalidad creció, el nombre del método dejó de ser u
 ## Beneficios
 
 Legibilidad del código. Intente darle al nuevo método un nombre que refleje lo que hace. 
-Algo así como createOrder(), renderCustomerInfo(), etc.
+Algo así como `createOrder()`, `renderCustomerInfo()`, etc.
 
 ## Cómo refactorizar
 
