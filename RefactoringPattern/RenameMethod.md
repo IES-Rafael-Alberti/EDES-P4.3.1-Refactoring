@@ -4,13 +4,13 @@
 
 El nombre de un método no explica lo que hace el método.
 
-![imagen](https://refactoring.guru/images/refactoring/diagrams/Rename%20Method%20-%20Before.png?id=7943798ae9db6b5b232860eed6262462)
+![imagen](/RefactoringPattern/assets/Rename%20Method%20-%20Before.png)
 
 ## Solución
 
 Renombrar el método para que quede más claro que realiza dicho método.
 
-![imagen](https://refactoring.guru/images/refactoring/diagrams/Rename%20Method%20-%20After.png?id=62b4e6747951bbbacba3ede379fef200)
+![imagen](/RefactoringPattern/assets/Rename%20Method%20-%20After.png)
 
 ## Por qué Refactorizar
 Tal vez un método fue mal nombrado desde el principio, por ejemplo, 
