@@ -4,13 +4,13 @@
 
 Múltiples clientes están usando la misma parte de la interfaz de una clase. Otro caso: parte de la interfaz en dos clases es la misma.
 
-![](https://refactoring.guru/images/refactoring/diagrams/Extract%20Interface%20-%20Before.png)
+![](./assets/Extract%20Interface%20-%20Before.png)
 
 ## Solución
 
 Mover esta porción idéntica a su propia interfaz.
 
-![](https://refactoring.guru/images/refactoring/diagrams/Extract%20Interface%20-%20After.png)
+![](./assets/Extract%20Interface%20-%20After.png)
 
 ## Por qué refactorizar
 
