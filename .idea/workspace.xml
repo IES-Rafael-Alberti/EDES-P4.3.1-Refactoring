@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="344e1bf3-359c-4094-91a8-30528336b7a6" name="Changes" comment="&quot;descomposeCondicional ok&quot;">
-      <change afterPath="$PROJECT_DIR$/RefactoringPattern/assets/Collapse Hierarchy - After.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RefactoringPattern/assets/Collapse Hierarchy - Before.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RefactoringPattern/CollapseHeirarchy.md" beforeDir="false" afterPath="$PROJECT_DIR$/RefactoringPattern/CollapseHeirarchy.md" afterDir="false" />
-    </list>
+    <list default="true" id="344e1bf3-359c-4094-91a8-30528336b7a6" name="Changes" comment="&quot;descomposeCondicional ok&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +48,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "187-review-refactoring---dealing-with-generalization---collapse-heirarchy",
+    "git-widget-placeholder": "Merging main",
     "last_opened_file_path": "/home/jesus/Desktop/Refactoring/EDES-P4.3.1-Refactoring/RefactoringPattern/assets",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",

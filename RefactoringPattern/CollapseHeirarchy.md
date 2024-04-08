@@ -12,7 +12,7 @@ Une la subclase y la superclase.
 
 ![](./assets/Collapse%20Hierarchy%20-%20After.png)
 
-## Por qué refactorizar
+## Por qué refactorizar.
 
 Tu programa ha crecido con el paso del tiempo, y la subclase y la superclase se han convertido en prácticamente lo mismo. Eliminas una característica de la subclase, se añade un método a la superclase, y acabas teniendo dos clases similares 
 
