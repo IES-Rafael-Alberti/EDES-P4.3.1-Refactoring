@@ -4,14 +4,14 @@
 
 ¿Tiene un método que devuelve un valor pero también cambia algo dentro de un objeto?
 
-![](../RefactoringPattern\assets\SeparateQueryfromModifier-Before.png)
+![](../RefactoringPattern/assets/SeparateQueryfromModifier-Before.png)
 
 ## Solución
 
 Divida el método en dos métodos separados. Como era de esperar, uno de ellos debería devolver el valor y el otro 
 modificar el objeto.
 
-![](../RefactoringPattern\assets\SeparateQueryfromModifier-After.png)
+![](../RefactoringPattern/assets/SeparateQueryfromModifier-After.png)
 
 ## Por qué Refactorizar
 
