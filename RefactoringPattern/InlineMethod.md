@@ -1,8 +1,8 @@
-# Método en linea
+# Método en linea (Inline Method)
 
 ## Problema
 
-Cuando el cuerpo de un método es más obvio que el propio método, utilice esta técnica.
+El cuerpo del método (sus instrucciones) explica mejor el método en si, que su nombre.
 
 ```Kotlin
 class EntregaDePizza {
@@ -18,7 +18,7 @@ class EntregaDePizza {
 
 ## Solución
 
-Reemplace las llamadas al método por el contenido del método y elimine el propio método.
+Reemplaza las llamadas al método con el contenido del método y elimina el método en sí.
 
 ```Kotlin
 class EntregaDePizza {
@@ -28,18 +28,17 @@ class EntregaDePizza {
 }
 ```
 
-## ¿Por qué Refactorizar?
+## Por qué refactorizar
 
-*Un método simplemente delega en otro método. En sí misma, esta delegación no es un problema. Pero cuando hay muchos métodos de este tipo, se convierten en una maraña confusa que es difícil de resolver.<br><br>A menudo, los métodos no son demasiado cortos originalmente, pero se vuelven así a medida que se realizan cambios en el programa. Así que no tengas vergüenza de deshacerte de los métodos que han sobrevivido a su uso.
+* Un método simplemente delega a otro método. En sí misma, esta delegación no es un problema. Pero cuando hay muchos métodos de este tipo, se convierten en una maraña confusa que es difícil de resolver.
+* A menudo, los métodos no son demasiado cortos originalmente, pero se vuelven así a medida que se realizan cambios en el programa. Así que no tengas miedo de deshacerte de los métodos que han sobrevivido a su uso.
 
-## Beneficiós
+## Beneficios
 
-Al minimizar el número de métodos innecesarios, el código es más sencillo.
+Al minimizar la cantidad de métodos innecesarios, hace que el código sea más sencillo.
 
 ## Cómo refactorizar
 
-1. Asegúrese de que el método no se redefina en subclases. Si se redefine el método, absténgase de esta técnica.
-
-3. Busque todas las llamadas al método. Reemplace estas llamadas por el contenido del método.
-
-5. Elimine el método.
+1. Asegurate de que el método no esté redefinido en las subclases. Si se redefine el método, abstenerse de esta técnica.
+2. Encuentra todas las llamadas al método y reemplaza estas llamadas con el contenido del método.
+3. Eliminar el método.

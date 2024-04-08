@@ -65,12 +65,14 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\shado\Documents\GitHub\EDES-P4.3.1-Refactoring\RefactoringPattern\assets" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/RefactoringPattern/assets" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-19.0.2-corretto-19.0.2-249ae16d76d6-36550cda" />
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-e47b9c39" />
       </set>
     </attachedChunks>
   </component>
