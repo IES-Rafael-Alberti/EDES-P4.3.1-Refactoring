@@ -4,18 +4,18 @@
 
 Obtienes varios valores de un objeto y luego los pasas como parámetros a un método.
 
-```Java
-int low = daysTempRange.getLow();
-int high = daysTempRange.getHigh();
-boolean withinPlan = plan.withinRange(low, high);
+```Kotlin
+val baja: Int = daysTempRange.baja
+val alta: Int = daysTempRange.alta
+val dentroDelPlan: Boolean = plan.dentroDelRango(baja, alta)
 ```
 
 ## Solución
 
 En su lugar, intenta pasar el objeto completo.
 
-```Java
-boolean withinPlan = plan.withinRange(daysTempRange);
+```Kotlin
+val dentroDelPlan: Boolean = plan.dentroDelRango(daysTempRange)
 ```
 
 ## Por qué refactorizar
@@ -38,22 +38,6 @@ A veces, esta transformación hace que un método sea menos flexible: antes el m
 
 Crea un parámetro en el método para el objeto del cual puedes obtener los valores necesarios.
 
-Ahora comienza a eliminar los antiguos parámetros del método uno por uno, reemplazándolos con llamadas a los métodos relevantes del objeto de parámetro. Prueba el programa después de cada reemplazo de parámetro.
+Ahora comienza a eliminar los antiguos parámetros del método uno por uno, reemplazándolos con llamadas a los métodos relevantes del objeto parámetro. Prueba el programa después de cada reemplazo de parámetro.
 
 Elimina el código getter del objeto de parámetro que había precedido a la llamada del método.
-
-## Refactorizaciones similar
-
-[Introducir Objeto de Parametro](../RefactoringPattern/IntroduceParameterObject.md)
-
-[Reemplazar Parametro con Llamada a Metodo](../RefactoringPattern/ReplaceParameterWithMethodCall.md)
-
-## Elimina olor
-
-[Obsesion Primitiva](../CodeSmell/PrimitiveObsession.md)
-
-[List de Parametros Largos](../CodeSmell/LongParameterList.md)
-
-[Metodo Largo](../CodeSmell/LongMethod.md)
-
-[Grupo de Data](../CodeSmell/DataClumps.md)
