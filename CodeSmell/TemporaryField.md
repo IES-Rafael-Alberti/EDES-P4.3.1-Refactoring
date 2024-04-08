@@ -13,7 +13,7 @@ Este tipo de código es difícil de entender. Se espera ver datos en los campos 
 
 ## Tratamiento
 - Los campos temporales y todo el código que opera en ellos se pueden colocar en una clase separada mediante [Extraer Método](../RefactoringPattern/ExtractMethod.md). En otras palabras, estás creando un objeto de método, logrando el mismo resultado que si realizaras [Reemplazar método con objeto de método](../RefactoringPattern/ReplaceMethodWithMethodObject.md).
-- Introduce Null Object e intégralo en lugar del código condicional que se utilizaba para verificar la existencia de los valores de los campos temporales.
+- **[Introduce Null Object](/RefactoringPattern/IntroduceNullObject.md)** e intégralo en lugar del código condicional que se utilizaba para verificar la existencia de los valores de los campos temporales.
 
 - ![Dibujo articulo Campo Temporal 3](./assets/temporary-field-03.png)
 
