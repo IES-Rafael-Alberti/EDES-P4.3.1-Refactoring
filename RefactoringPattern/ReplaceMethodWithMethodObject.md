@@ -1,19 +1,20 @@
-# Reemplazar método con objeto de método (Replace Method with Method Object)
+# Reemplazar método con objeto de método
 
 ## Problema
 
-Tiene un método largo en el que las variables locales están tan entrelazadas que no puede aplicar el Método de extracción.
+Tiene un método largo en el que las variables locales están tan entrelazadas que no puede aplicar el [Método de extracción](../RefactoringPattern/ExtractMethod.md).
 
 ```Kotlin
 class Order {
+    // ...
     fun price(): Double {
-        var primaryBasePrice: Double
-        var secondaryBasePrice: Double
-        var tertiaryBasePrice: Double
-        // Realiza el calculo.
-        
+        val primaryBasePrice: Double
+        val secondaryBasePrice: Double
+        val tertiaryBasePrice: Double
+        // Realizar un cálculo.
     }
 }
+
 ```
 
 ## Solución
@@ -28,20 +29,21 @@ class Order {
 }
 
 class PriceCalculator(order: Order) {
-    private var primaryBasePrice: Double
-    private var secondaryBasePrice: Double
-    private var tertiaryBasePrice: Double
+    private var primaryBasePrice: Double = 0.0
+    private var secondaryBasePrice: Double = 0.0
+    private var tertiaryBasePrice: Double = 0.0
+    //Copia la información relevante del objeto order
     
 
     fun compute(): Double {
         // realiza el calculo.
-        return 0.0 // remplaza el resultado
+        return 0.0 // remplaza esto con el resultado real del cálculo
     }
 }
 ```
 ## Por qué refactorizar
 
-Un método es demasiado largo y no puedes separarlo debido al enrredo de variables locales que son difíciles de aislar entre sí.
+Un método es demasiado largo y no puedes separarlo debido al enredo de variables locales que son difíciles de aislar entre sí.
 
 El primer paso es aislar el método en una clase separada y convertir sus variables locales en campos de la clase.
 
