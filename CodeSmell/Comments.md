@@ -16,13 +16,13 @@ Si cree que un fragmento de código no se puede entender sin comentarios, intent
 
 ## Tratamiento
 
-* Si un comentario está destinado a explicar una expresión compleja, la expresión debe ser dividida en subexpresiones comprensibles utilizando la técnica de [Extract Variable](/RefactoringPattern/ExtractVariable.md).
+* Si un comentario está destinado a explicar una expresión compleja, la expresión debe ser dividida en subexpresiones comprensibles utilizando la técnica de [Extract Variable](../RefactoringPattern/ExtractVariable.md).
 
-* Si un comentario explica una sección de código, esta sección se puede convertir en un método separado mediante la técnica de [ExtractMethod](/RefactoringPattern/ExtractMethod.md). El nombre del nuevo método puede ser tomado del propio texto del comentario, muy probablemente.
+* Si un comentario explica una sección de código, esta sección se puede convertir en un método separado mediante la técnica de [ExtractMethod](../RefactoringPattern/ExtractMethod.md). El nombre del nuevo método puede ser tomado del propio texto del comentario, muy probablemente.
 
-* Si un método ya ha sido extraído, pero aún son necesarios comentarios para explicar lo que hace el método, dale al método un nombre autoexplicativo. Usa la técnica de [Rename Method](/RefactoringPattern/RenameMethod.md) para hacerlo.
+* Si un método ya ha sido extraído, pero aún son necesarios comentarios para explicar lo que hace el método, dale al método un nombre autoexplicativo. Usa la técnica de [Rename Method](../RefactoringPattern/RenameMethod.md) para hacerlo.
 
-* Si necesitas afirmar reglas sobre un estado que es necesario para que el sistema funcione, utiliza la técnica de [Introduce Assertion](/RefactoringPattern/IntroduceAssertion.md).
+* Si necesitas afirmar reglas sobre un estado que es necesario para que el sistema funcione, utiliza la técnica de [Introduce Assertion](../RefactoringPattern/IntroduceAssertion.md).
 
 ## Beneficios
 
