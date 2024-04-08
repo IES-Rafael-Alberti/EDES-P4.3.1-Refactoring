@@ -2,12 +2,12 @@
 ## Problema
 El cliente obtiene el objeto B de un campo o método del objeto A. Luego, el cliente llama a un método del objeto B.
 
-![](\assets\Hide Delegate-Before.png)
+![](./assets/Hide-Delegate-Before.png)
 
 ## Solución
 Crea un nuevo método en la clase A que delegue la llamada al objeto B. Ahora el cliente no conoce ni depende de la clase B.
 
-![](\assets\Hide Delegate-After.png)
+![](./assets/Hide-Delegate-After.png)
 
 ## Por qué Refactorizar
 Para empezar, veamos la terminología:
