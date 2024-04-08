@@ -3,12 +3,12 @@
 ## Problema
 Un método no tiene suficientes datos para realizar ciertas acciones.
 
-![](../RefactoringPattern\assets\AddParameter-Before.png)
+![](../RefactoringPattern/assets/AddParameter-Before.png)
 
 ## Solución
 Cree un nuevo parámetro para pasar los datos necesarios.
 
-![](../RefactoringPattern\assets\AddParameter-After.png)
+![](../RefactoringPattern/assets/AddParameter-After.png)
 
 ## Por qué refactorizar
 Necesita realizar cambios en un método y estos cambios requieren agregar información o datos que anteriormente no estaban disponibles para el método.
@@ -18,7 +18,7 @@ Necesita realizar cambios en un método y estos cambios requieren agregar inform
 La elección aquí es entre agregar un nuevo parámetro y agregar un nuevo campo privado que contenga los datos necesarios para el método. Un parámetro es preferible cuando necesita algunos datos ocasionales o que cambian con frecuencia y no tiene sentido mantenerlos en un objeto todo el tiempo. En este caso, el refactorización valdrá la pena. De lo contrario, agregue un campo privado y llénelo con los datos necesarios antes de llamar al método.
 
 ## Inconvenientes
-Agregar un nuevo parámetro siempre es más fácil que eliminarlo, lo que explica por qué las listas de parámetros a menudo crecen a tamaños grotescos. Este olor se conoce como [Long Parametrer List](/CodeSmell/LongParameterList.md).
+Agregar un nuevo parámetro siempre es más fácil que eliminarlo, lo que explica por qué las listas de parámetros a menudo crecen a tamaños grotescos. Este olor se conoce como [Long Parametrer List](../CodeSmell/LongParameterList.md).
 
 Si necesita agregar un nuevo parámetro, a veces esto significa que su clase no contiene los datos necesarios o que los parámetros existentes no contienen los datos relacionados necesarios. En ambos casos, la mejor solución es considerar mover los datos a la clase principal o a otras clases cuyos objetos ya son accesibles desde el interior del método.
 
