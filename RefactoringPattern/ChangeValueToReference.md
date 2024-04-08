@@ -1,46 +1,49 @@
-# Cambiar valor a referencia
+# Cambiar referencia a valor
 
 ## Problema
 
-Hay muchas instancias idénticas de una sola clase que necesita reemplazar con un solo objeto.
+Tiene un objeto de referencia que es demasiado pequeño y que se modifica con poca frecuencia para justificar la gestión de su ciclo de vida.
+
+![](../RefactoringPattern/assets/ChangeReferenceToValue-Before.png)
 
 ## Solución
 
-Convierta los objetos idénticos en un solo objeto de referencia.
+Conviertelo en un objeto de valor.
 
-![Alt text](https://refactoring.guru/images/refactoring/diagrams/Change%20Value%20to%20Reference%20-%20Before.png?id%3Db2e65e5bb87366e8195bab6933c15250)
 
-![Alt text](https://refactoring.guru/images/refactoring/diagrams/Change%20Value%20to%20Reference%20-%20After.png?id%3D20d3bdea32264097859011bacb4ff19f)
+
+![](../RefactoringPattern/assets/ChangeReferenceToValue-After.png)
 
 ## Por qué refactorizar
 
-En muchos sistemas, los objetos se pueden clasificar como valores o referencias.
+La inspiración para pasar de una referencia a un valor puede surgir del inconveniente de trabajar con la referencia. Las referencias requieren gestión por su parte:
 
-· **Referencias:** cuando un objeto del mundo real corresponde a un solo objeto en el programa. Las referencias suelen ser usuario/pedido/producto/etc. objetos.
+- Siempre requieren solicitar al almacén el objeto necesario.
 
-· **Valores:** un objeto del mundo real corresponde a múltiples objetos en el programa. Estos objetos pueden ser fechas, números de teléfono, direcciones, colores y similares.
+- Puede resultar incómodo trabajar con las referencias en la memoria.
 
-La selección de referencia frente a valor no siempre es clara. A veces hay un valor simple con una pequeña cantidad de datos que no cambian. Entonces se vuelve necesario agregar datos modificables y pasar estos cambios cada vez que se accede al objeto. En este caso es necesario convertirlo en una referencia.
+- Trabajar con referencias es particularmente difícil, en comparación con valores, en sistemas distribuidos y paralelos.
+
+Los valores son especialmente útiles si prefiere tener objetos inmutables que objetos cuyo estado pueda cambiar durante su vida.
 
 ## Beneficios
 
-Un objeto contiene la información más reciente sobre una entidad en particular. Si el objeto es cambiado en una parte del programa, estos cambios serán accesibles desde las otras partes del programa que hacen uso de este.
+- Una propiedad importante de los objetos es que deben ser inmutables. Se debe recibir el mismo resultado para cada consulta que devuelva un valor de objeto. Si esto es cierto, no surgen problemas si hay muchos objetos que representan lo mismo.
 
-## Inconvenientes
+- Los valores son mucho más fáciles de implementar.
 
-Las referencias son mucho más difíciles de implementar.
+## Desventajas
+
+Si un valor se puede cambiar, asegúrese de que si algún objeto cambia, los valores de todos los demás objetos que representan la misma entidad se actualicen. Esto es tan engorroso que es más fácil crear una referencia para este propósito.
 
 ## Cómo refactorizar
 
-1.Utilice [Reemplazar constructor con el método de fábrica](./ReplaceConstructorWithFactoryMethod.md) en la clase a partir de la cual se generarán las referencias.
+1. Haz que el objeto sea inmutable. El objeto no debe tener definidores u otros métodos que cambien su estado y datos ( **[Eliminar método de configuración](/RefactoringPattern/RemoveSettingMethod.md)** puede ayudar aquí). El único lugar donde se deben asignar datos a los campos de un objeto de valor es un constructor.
 
-2.Determine qué objeto será responsable de proporcionar acceso a las referencias. En lugar de crear un nuevo objeto, cuando necesite uno, debe obtenerlo de un objeto de almacenamiento o un campo de diccionario estático.
+2. Cree un método de comparación para poder comparar dos valores.
 
-3.Determine si las referencias se crearán por adelantado o dinámicamente según sea necesario. Si los objetos se crean con anticipación, asegúrese de cargarlos antes de usarlos.
-
-4.Cambie el método de fábrica para que devuelva una referencia. Si los objetos se crean con anticipación, decida cómo manejar los errores cuando se solicite un objeto inexistente. Es posible que también deba usar [Renombrar Método](
-./RenameMethod.md) para informar que el método solo devuelve objetos existentes.
+3. Compruebe si puede eliminar el método de fábrica y hacer público el constructor del objeto.
 
 
 ## Anti-refactorización
-[Cambiar referencia a valor](/RefactoringPattern/ChangeValueToReference.md)
+[Cambiar valor a referencia](/RefactoringPattern/ChangeValueToReference.md)
