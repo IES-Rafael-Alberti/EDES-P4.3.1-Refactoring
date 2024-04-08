@@ -4,7 +4,7 @@
 
 Tiene un objeto de referencia que es demasiado pequeño y que se modifica con poca frecuencia para justificar la gestión de su ciclo de vida.
 
-![](../RefactoringPattern/assets/ChangeReferenceToValue-Before.png)
+![](./assets/ChangeReferenceToValue-Before.png)
 
 ## Solución
 
@@ -12,7 +12,7 @@ Conviertelo en un objeto de valor.
 
 
 
-![](../RefactoringPattern/assets/ChangeReferenceToValue-After.png)
+![](./assets/ChangeReferenceToValue-After.png)
 
 ## Por qué refactorizar
 
