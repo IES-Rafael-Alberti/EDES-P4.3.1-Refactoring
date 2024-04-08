@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="344e1bf3-359c-4094-91a8-30528336b7a6" name="Changes" comment="&quot;descomposeCondicional ok&quot;">
-      <change beforePath="$PROJECT_DIR$/RefactoringPattern/DuplicateObservedData.md" beforeDir="false" afterPath="$PROJECT_DIR$/RefactoringPattern/DuplicateObservedData.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RefactoringPattern/RemoveAssignmentsToParameters.md" beforeDir="false" afterPath="$PROJECT_DIR$/RefactoringPattern/RemoveAssignmentsToParameters.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "174-review-refactoring---composing-methods---replace-method-with-method-object",
+    "git-widget-placeholder": "175-review-refactoring---composing-methods---remove-assignments-to-parameters",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/usuariom/Desktop/EDES-P4.3.1-Refactoring",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -62,7 +64,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-e47b9c39" />
+        <option value="jdk-19.0.2-corretto-19.0.2-249ae16d76d6-36550cda" />
       </set>
     </attachedChunks>
   </component>
