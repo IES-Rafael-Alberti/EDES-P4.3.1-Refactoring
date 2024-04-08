@@ -1,22 +1,25 @@
 # Reemplazar matriz con objeto
 
-Esta técnica de refactorización es un caso especial de Reemplazar valor de datos con objeto .
+> Esta técnica de refactorización es un caso especial de **[Reemplazar valor de datos con objeto](/RefactoringPattern/ReplaceDataValueWithObject.md)** .
 
 ## Problema 
 
 Tenemos una matriz que contiene varios tipos de datos.
 
+```kotlin
 val row = arrayOfNulls<String>(2)
 row[0] = "Liverpool"
 row[1] = "15"
-
+``` 
 ## Solución
 
 Reemplazar la matriz con un objeto que tendrá campos separados para cada elemento.
 
+```kotlin
 val row = Performance()
 row.name = "Liverpool"
 row.wins = "15"
+```
 
 ## Por qué refactorizar
 
@@ -41,3 +44,9 @@ Las matrices son una excelente herramienta para almacenar datos y colecciones de
 5.Para cada elemento de la matriz, cree un campo privado en la clase y luego cambie los métodos de acceso para que usen este campo en lugar de la matriz.
 
 6.Cuando se hayan movido todos los datos, elimine la matriz.
+
+## Refactorizaciones similares
+**[Reemplazar valor de datos con objeto](/RefactoringPattern/ReplaceDataValueWithObject.md)**
+
+## Elimina el olor
+**[Obesión primitiva](/CodeSmell/PrimitiveObsession.md)**
