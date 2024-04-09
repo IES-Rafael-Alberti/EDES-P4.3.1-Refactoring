@@ -2,7 +2,7 @@
 
 ## Problema
 
-Se puede encontrar un código idéntico en todas las ramas de un condicional.
+Se puede encontrar un código identico en todas las ramas de un condicional.
 
 ```Kotlin
 if (isSpecialDeal()) {
