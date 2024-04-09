@@ -1,15 +1,7 @@
 # Eliminar intermediario
 
 ## Problema
-
 Una clase tiene demasiados métodos que simplemente delegan en otros objetos.
-
-## Solución
-
-Elimine estos métodos y obligue al cliente a llamar directamente a los métodos finales.
-
-Quitar intermediario - Antes
-
 ![](https://refactoring.guru/images/refactoring/diagrams/Remove%20Middle%20Man%20-%20Before.png?id=f51110f3e0d4423b3f9088e92fc3dce4)
 
 ```Kotlin
@@ -30,8 +22,9 @@ class Persona : Cliente{
 ```
 
 
-Quitar intermediario - Después
+## Solución
 
+Elimine estos métodos y obligue al cliente a llamar directamente a los métodos finales.
 ![](https://refactoring.guru/images/refactoring/diagrams/Remove%20Middle%20Man%20-%20After.png?id=f7de1016e76545f7c51af09463ce5f4c)
 
 ``` kotlin 
