@@ -4,17 +4,17 @@
 
 Múltiples clientes están usando la misma parte de la interfaz de una clase. Otro caso: parte de la interfaz en dos clases es la misma.
 
-![](https://refactoring.guru/images/refactoring/diagrams/Extract%20Interface%20-%20Before.png)
+![](./assets/Extract%20Interface%20-%20Before.png)
 
 ## Solución
 
 Mover esta porción idéntica a su propia interfaz.
 
-![](https://refactoring.guru/images/refactoring/diagrams/Extract%20Interface%20-%20After.png)
+![](./assets/Extract%20Interface%20-%20After.png)
 
 ## Por qué refactorizar
 
-1. Las interfaces son muy apropiadas cuando las clases juegan roles especiales en diferentes situaciones. Use [Extraer interfaz] para indicar explícitamente qué papel.
+1. Las interfaces son muy apropiadas cuando las clases juegan roles especiales en diferentes situaciones. Usa [Extraer interfaz] para indicar explícitamente qué papel.
 
 2. Otro caso conveniente surge cuando es necesario describir las operaciones que una clase realiza en su servidor. Si se planea permitir el uso de servidores de múltiples tipos, todos los servidores deben implementar la interfaz.
 

@@ -4,12 +4,12 @@
 ## Problema
 Tienes dos clases con campos y métodos comunes.
 
-![Extraer Superclase - Antes](https://refactoring.guru/images/refactoring/diagrams/Extract%20Superclass%20-%20Before.png)
+![Extraer Superclase - Antes](./assets/Extract%20Class%20-%20Before.png)
 
 ## Solución
 Crea una superclase compartida para ellas y mueve todos los campos y métodos idénticos a ella.
 
-![Extraer Superclase - Después](https://refactoring.guru/images/refactoring/diagrams/Extract%20Superclass%20-%20After.png)
+![Extraer Superclase - Después](./assets/Extract%20Class%20-%20After.png)
 
 ## Por qué Refactorizar
 
