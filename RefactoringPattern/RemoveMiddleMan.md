@@ -2,6 +2,7 @@
 
 ## Problema
 Una clase tiene demasiados métodos que simplemente delegan en otros objetos.
+
 ![](https://refactoring.guru/images/refactoring/diagrams/Remove%20Middle%20Man%20-%20Before.png?id=f51110f3e0d4423b3f9088e92fc3dce4)
 
 ```Kotlin
