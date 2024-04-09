@@ -18,7 +18,7 @@ Este tipo de código es difícil de entender. Espera ver datos en campos de obje
 
 Los campos temporales y todo el código que opera en ellos se pueden colocar en una [clase separada](https://github.com/IES-Rafael-Alberti/EDES-P4.3.1-Refactoring/blob/main/RefactoringPattern/ExtractClass.md) a través de Extract Class. En otras palabras, está creando un objeto de método, logrando el mismo resultado que si realizara [Reemplazar método con objeto de método](https://github.com/IES-Rafael-Alberti/EDES-P4.3.1-Refactoring/blob/main/RefactoringPattern%5CReplaceMethodWithMethodObject.md).
 
-Introduzca Null Object e intégrelo en lugar del código condicional que se utilizó para comprobar la existencia de los valores de campo temporales.
+[Introducir objeto nulo](https://github.com/IES-Rafael-Alberti/EDES-P4.3.1-Refactoring/blob/main/RefactoringPattern/IntroduceNullObject.md) e intégrelo en lugar del código condicional que se utilizó para comprobar la existencia de los valores de campo temporales.
 
 ![imagen](../CodeSmell\assets\temporary-field-03.png)
 
