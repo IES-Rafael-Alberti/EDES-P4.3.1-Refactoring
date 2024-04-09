@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="344e1bf3-359c-4094-91a8-30528336b7a6" name="Changes" comment="&quot;descomposeCondicional ok&quot;">
-      <change afterPath="$PROJECT_DIR$/RefactoringPattern/assets/IntroduceParameterObject-After.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RefactoringPattern/assets/IntroduceParameterObject-Before.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_02_2023_11_38__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_02_2023_11_38__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d54e61d0-830d-4614-9279-afe0c31997b2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CodeSmell/TemporaryField.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +47,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Git.Branch.Popup.ShowAllRemotes": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -60,6 +58,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -89,6 +88,7 @@
       <updated>1676622460351</updated>
       <workItem from="1676622463284" duration="3529000" />
       <workItem from="1677049574057" duration="49000" />
+      <workItem from="1677149237876" duration="573000" />
       <workItem from="1678100880774" duration="2976000" />
       <workItem from="1679642555974" duration="6389000" />
       <workItem from="1679989476417" duration="690000" />
