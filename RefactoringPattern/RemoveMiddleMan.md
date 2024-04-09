@@ -26,6 +26,7 @@ class Persona : Cliente{
 ## Solución
 
 Elimine estos métodos y obligue al cliente a llamar directamente a los métodos finales.
+
 ![](https://refactoring.guru/images/refactoring/diagrams/Remove%20Middle%20Man%20-%20After.png?id=f7de1016e76545f7c51af09463ce5f4c)
 
 ``` kotlin 
