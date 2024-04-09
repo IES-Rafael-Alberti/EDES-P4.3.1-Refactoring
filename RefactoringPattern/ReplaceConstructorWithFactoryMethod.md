@@ -13,6 +13,7 @@ class Empleado(val tipo: Int) {
 ```
 >*kotlin
 
+
 ## Solución
 
 Crea un método de fábrica y úsalo para reemplazar las llamadas al constructor.
@@ -31,6 +32,7 @@ class Empleado private constructor(val tipo: Int) {
 
 ```
 >*kotlin 
+
 
 
 ## Por qué Refactorizar
@@ -68,13 +70,3 @@ class Troops {
 3. Declara el constructor como privado.
 
 4. Investiga el código del constructor e intenta aislar el código que no está directamente relacionado con la construcción de un objeto de la clase actual, moviendo dicho código al método de fábrica
-
-## Ayuda otras refactorizaciones
-
-[Cambiar valor por referencia](../RefactoringPattern/ChangeValueToReference.md)
-
-[Reemplazar Codigo Tipo con Subclasses](../RefactoringPattern/ReplaceTypeCodeWithSubClass.md)
-
-## Implementa Patron de Diseno
-
-[Metodo Fabrica](https://refactoring.guru/es/design-patterns/factory-method)
