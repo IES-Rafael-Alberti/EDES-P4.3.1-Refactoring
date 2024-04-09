@@ -10,43 +10,42 @@ Aísle todas las comprobaciones especiales y casos extremos en cláusulas separa
 comprobaciones principales. Idealmente, debería tener una lista "plana" de condiciones, una después de la otra.
 
 # Antes
-```java
-public double getPayAmount() {
-    double result;
-    if (isDead){
-        result = deadAmount();
-    }
-    else {
-        if (isSeparated){
-            result = separatedAmount();
-        }
-        else {
-            if (isRetired){
-                result = retiredAmount();
-            }
-            else{
-                result = normalPayAmount();
+```kotlin
+fun getPayAmount(): Double {
+    val result: Double
+    result = if (isDead) {
+        deadAmount()
+    } else {
+        if (isSeparated) {
+            separatedAmount()
+        } else {
+            if (isRetired) {
+                retiredAmount()
+            } else {
+                normalPayAmount()
             }
         }
     }
-    return result;
+    return result
 }
+
 ```
 
 # Despues
-```java
-public double getPayAmount() {
-    if (isDead){
-        return deadAmount();
+```kotlin
+fun getPayAmount(): Double {
+    if (isDead) {
+        return deadAmount()
     }
-    if (isSeparated){
-        return separatedAmount();
+    if (isSeparated) {
+        return separatedAmount()
     }
-    if (isRetired){
-        return retiredAmount();
+    if (isRetired) {
+        return retiredAmount()
     }
-    return normalPayAmount();
+    return normalPayAmount()
 }
+
 ```
 
 ## Por qué Refactorizar
@@ -87,12 +86,12 @@ estructura sea plana.
 
 ## Cómo Refactorizar
 
-Trate de eliminar los efectos secundarios del código - [Separar Consulta de Modificador](SeperateQueryFromModifier.md)
+Trate de eliminar los efectos secundarios del código - [Separar Consulta de Modificador](../RefactoringPattern/SeparateQueryFromModifier.md)
 puede ser útil para este propósito. Esta solución será necesaria para la reorganización descrita a continuación.
 
 1. Aísle todas las cláusulas de guarda que llevan a llamar a una excepción o devolución inmediata de un valor del método 
 . Coloque estas condiciones al principio del método.
 
 2. Después de que se haya completado la reorganización y se hayan realizado todas las pruebas con éxito, vea si puede 
-usar la [Consolidación de Expresiones Condicionales](ConsolidateConditionalExpression.md) para cláusulas de guarda que 
+usar la [Consolidación de Expresiones Condicionales](../RefactoringPattern/ConsolidateConditionalExpression.md) para cláusulas de guarda que 
 lleven a las mismas excepciones o valores devueltos.
