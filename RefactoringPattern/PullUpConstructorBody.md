@@ -41,5 +41,5 @@ En la mayoría de los lenguajes de programación, un constructor de una subclase
 ## Cómo Refactorizar
 
 1. Crear un constructor en una superclase.
-2. Extraer el código común del principio del constructor de cada subclase al constructor de la superclase. Antes de hacerlo, intente mover tanto código común como sea posible al principio del constructor.
+2. Extraer el código común del principio del constructor de cada subclase al constructor de la superclase. Antes de hacerlo, intente mover tanto código común como sea posible al principio del constructor..
 3. Colocar la llamada al constructor de la superclase en la primera línea de los constructores de la subclase.
