@@ -1,25 +1,29 @@
-# Object Orientation Abusers: Alternative Classes with different interfaces
+# Clases Alternativas con Diferentes Interfaces
 
-## ¿Cuál es el problema?
+## Signos y Síntomas
 
-Este olor consiste en que dos clases cumplen las mismas funciones pero sus métodos tienen nombres distintos,normalmente esto se debe a que el programador no sabía que ya existía una clase que cumplia exactamente la misma función.
+Dos clases cumplen las mismas funciones, pero sus métodos tienen nombres distintos.
 
-![](https://refactoring.guru/images/refactoring/content/smells/alternative-classes-with-different-interfaces-01.png)
+![](../CodeSmell/assets/alternative-classes-with-different-interfaces-01.png)
 
-## ¿Cómo gestionar el problema?
+## Razones del Problema
 
-* Renombra los métodos para que se llamen igual en todas las clases alternativas.
-* Si solo una parte de las clases está duplicada, se puede usar [Extraer Clase](../RefactoringPattern/ExtractClass.md) para extraer esta parte y convertirla en una super clase.
-* Usar las siguientes técnicas [Move Method](../RefactoringPattern/MoveMethod.md), [Add Parameter](../RefactoringPattern/AddParameter.md) y [Parameterize Method](../RefactoringPattern/ParameterizeMethod.md), [Add Parameter](../RefactoringPattern/AddParameter.md) para hacer que la implementación de los métodos sean iguales
+El programador que creo una de las clases probablemente no sabía que había una clase funcionalmente equivalente.
 
-Una vez que hayas aplicado algunos de los métodos anteriormente comentados, puede ser que puedas eliminar una de las clases "duplicadas".
+## Tratamiento
 
-[Aquí un vídeo en inglés que explica el tema](https://code.tutsplus.com/courses/detecting-code-smells/lessons/alternative-classes-with-different-interfaces)
+Intenta poner la interfaz de las clases en términos de un denominador común:
+- [Renombra los métodos](../RefactoringPattern/RenameMethod.md) para hacerlos idénticos en todas las clases alternativas.
+* [Mover Método](../RefactoringPattern/MoveMethod.md), [Añadir Parámetro](../RefactoringPattern/AddParameter.md) y [Parametrizar Método](../RefactoringPattern/ParameterizeMethod.md) para hacer que la firma y la implementación de los métodos sean iguales.
+- Si solo parte de la funcionalidad de las clases está duplicada, intenta usar [Extraer Superclase](../RefactoringPattern/ExtractSuperclass.md). En este caso, las clases existentes se convertirán en subclases.
+* Después de haber determinado qué método de tratamiento usar y haberlo implementado, deberías ser capaz de eliminar una de las clases.
 
-![](https://refactoring.guru/images/refactoring/content/smells/alternative-classes-with-different-interfaces-02.png)
+## Recompensa
 
-## ¿Cuál es la importancia de todo esto?
+- Te deshaces del código duplicado innecesario, haciendo que el código resultante sea menos voluminoso.
+* El código se vuelve más legible y comprensible (ya no tienes que adivinar la razón de la creación de una segunda clase que realiza exactamente las mismas funciones que la primera).
+![](../CodeSmell/assets/alternative-classes-with-different-interfaces-02.png)
 
-Hacer que tu código no tenga duplicados, esto facilitará la lectura y entendimiento de tu código lo cual mejorará el mantenimiento a este mismo.
+## Cuando Ignorarlo
 
-Cable aclarar que no siempre se puede fusionar las clases o hay veces que es tan complicado hacerlo que no tiene sentido el solucionarlo. Un ejemplo es que las clases estén en diferentes librerías.
+A veces, fusionar clases es imposible o tan difícil que resulta inútil. Un ejemplo es cuando las clases alternativas están en diferentes bibliotecas que cada una tiene su propia versión de la clase.

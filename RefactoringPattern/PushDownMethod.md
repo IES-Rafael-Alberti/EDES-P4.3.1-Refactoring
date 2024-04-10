@@ -3,12 +3,12 @@
 ## Problema
 ¿Se implementa un comportamiento en una superclase utilizado por solo una (o unas pocas) subclases?
 
-![Método Push Down - Antes](https://refactoring.guru/images/refactoring/diagrams/Push%20Down%20Method%20-%20Before.png)
+![Método Push Down - Antes](./assets/Push%20Down%20Method%20-%20Before.png)
 
 ## Solución
 Mueva este comportamiento a las subclases.
 
-![Método Push Down - Después](https://refactoring.guru/images/refactoring/diagrams/Push%20Down%20Method%20-%20After.png)
+![Método Push Down - Después](./assets/Push%20Down%20Method%20-%20After.png)
 
 ## Por qué refactorizar
 Inicialmente, se pretendía que un método fuera universal para todas las clases, pero en realidad solo se usa en una 
