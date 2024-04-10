@@ -3,7 +3,7 @@
 ## Problema
 Una clase tiene demasiados métodos que simplemente delegan en otros objetos.
 
-![](https://refactoring.guru/images/refactoring/diagrams/Remove%20Middle%20Man%20-%20Before.png?id=f51110f3e0d4423b3f9088e92fc3dce4)
+![Remove Middle Man - Before.png](assets%2FRemove%20Middle%20Man%20-%20Before.png)
 
 ```Kotlin
 interface Cliente{
@@ -27,7 +27,7 @@ class Persona : Cliente{
 
 Elimine estos métodos y obligue al cliente a llamar directamente a los métodos finales.
 
-![](https://refactoring.guru/images/refactoring/diagrams/Remove%20Middle%20Man%20-%20After.png?id=f7de1016e76545f7c51af09463ce5f4c)
+![Remove Middle Man - After.png](assets%2FRemove%20Middle%20Man%20-%20After.png)
 
 ``` kotlin 
 
@@ -49,7 +49,7 @@ class Persona : Cliente{
 
 ## ¿Por qué Refactorizar?
 
-Para describir esta técnica, usaremos los términos de [ocultar delegado](https://github.com/IES-Rafael-Alberti/EDES-P4.3.1-Refactoring/blob/main/RefactoringPattern/HideDelegate.md), que son:
+Para describir esta técnica, usaremos los términos de [HideDelegate.md](HideDelegate.md)[ocultar delegado](https://github.com/IES-Rafael-Alberti/EDES-P4.3.1-Refactoring/blob/main/RefactoringPattern/HideDelegate.md), que son:
 
 * El servidor o server es el objeto al que el cliente tiene acceso directo.
 
