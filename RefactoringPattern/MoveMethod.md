@@ -2,13 +2,13 @@
 ## Problema
 * Un método se usa más en otra clase que en su propia clase.
 
-![](https://refactoring.guru/images/refactoring/diagrams/Move%20Method%20-%20Before.png)
+![Move Method - Before.png](assets%2FMove%20Method%20-%20Before.png)
 ## Solución
 * Cree un nuevo método en la clase que más utilice el método y, a continuación, mueva el código del método anterior 
 allí. Convierta el código del método original en una referencia al nuevo método en la otra clase o elimínelo por
 completo.
 
-![](https://refactoring.guru/images/refactoring/diagrams/Move%20Method%20-%20After.png)
+![Move Method - After.png](assets%2FMove%20Method%20-%20After.png)
 ## Por qué refactorizar
 1. Desea mover un método a una clase que contiene la mayoría de los datos utilizados por el método. Esto hace que las 
 clases sean más coherentes internamente.
