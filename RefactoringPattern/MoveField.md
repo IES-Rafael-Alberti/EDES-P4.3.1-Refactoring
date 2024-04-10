@@ -4,16 +4,16 @@
 
 Un campo se usa más en otra clase que en su propia clase.
 
-![](https://refactoring.guru/images/refactoring/diagrams/Move%20Field%20-%20Before.png?id=b58c81b01a0c4ef8659f92cc64fa51a8)
+![Move Field - Before.png](assets%2FMove%20Field%20-%20Before.png)
 
 ## Solución
 
 Crea un campo en una nueva clase para redirigir a todos los usuarios del viejo campo al nuevo.
-![](https://refactoring.guru/images/refactoring/diagrams/Move%20Field%20-%20After.png?id=d7c21af94ec9df17575373bae745e96e)
+![Move Field - After.png](assets%2FMove%20Field%20-%20After.png)
 
 ## Por qué refactorizar
 
-A menudo los campos se mueven como parte de la [Extracción de clases](https://refactoring.guru/es/extract-class). Decidir a que clase dejar el campo puede ser dificil. Aquí está nuestra regla: **pon un campo en el mismo lugar que los métodos que lo usan**(o donde más de estos métodos haya).
+A menudo los campos se mueven como parte de la [ExtractClass.md](ExtractClass.md). Decidir a que clase dejar el campo puede ser dificil. Aquí está nuestra regla: **pon un campo en el mismo lugar que los métodos que lo usan**(o donde más de estos métodos haya).
 
 Esta regla te ayudará en otros casos cuando un campo está simplemente localizado en el lugar incorrecto.
 
