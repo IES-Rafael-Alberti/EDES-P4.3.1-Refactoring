@@ -6,6 +6,7 @@ Se usa para agregar funcionalidad a una clase que no podemos modificar directame
 
 Como se ha dicho antes, cuando queremos añadir funcionalidad a una clase pero no podemos modificarla. En ese caso tendremos que hacer una subclase para añadir esa funcionalidad
 
+![Introduce Local Extension - Before.png](assets%2FIntroduce%20Local%20Extension%20-%20Before.png)
 ## ¿Cómo solucionar el problema?
 
 1. Crear una clase de extensión, que será un elemento secundario que aumente la funcionalidad de la clase principal
@@ -13,7 +14,7 @@ Como se ha dicho antes, cuando queremos añadir funcionalidad a una clase pero n
 3. Cree un constructor alternativo de "conversión" que tome solo el objeto de la clase original en sus parámetros. Esto ayudará a sustituir la extensión por los objetos de la clase original.
 4. Crea nuevos métodos extendidos en la clase. Mueva los métodos foráneos de otras clases a esta clase o elimine los métodos foráneos si su funcionalidad ya está presente en la extensión
 5. Reemplace el uso de la clase de utilidad con la nueva clase de extensión en los lugares donde se necesita su funcionalidad
-
+![Introduce Local Extension - After.png](assets%2FIntroduce%20Local%20Extension%20-%20After.png)
 ## Ejemplo
 
 ```
