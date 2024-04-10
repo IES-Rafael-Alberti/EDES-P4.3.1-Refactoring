@@ -3,30 +3,32 @@
 ## Problema
 Tus subclases tienen constructores con código que es principalmente idéntico.
 
-```  Java
-class Manager extends Employee {
-  public Manager(String name, String id, int grade) {
-    this.name = name;
-    this.id = id;
-    this.grade = grade;
-  }
-  // ...
+```  
+class Manager(
+    val name: String,
+    val id: String,
+    val grade: Int
+) : Employee() {
+    // ...
 }
-
 ```
+>kotlin
+
 ## Solución
 Cree un constructor de superclase y mueva el código que es igual en las subclases a él. Llame al constructor de la superclase en los constructores de la subclase.
 
 ``` Java 
-class Manager extends Employee {
-  public Manager(String name, String id, int grade) {
-    super(name, id);
-    this.grade = grade;
-  }
-  // ...
+class Manager(
+    name: String,
+    id: String,
+    val grade: Int
+) : Employee(name, id) {
+    // ...
 }
-```
 
+```
+>kotlin
+> 
 ## ¿Por qué Refactorizar?
 ### ¿Cómo se diferencia esta técnica de Refactorización del método [Pull Up](https://github.com/IES-Rafael-Alberti/EDES-P4.3.1-Refactoring/blob/123-refactoring-dealing-with-generalization-pull-up-method/RefactoringPattern/Pull-up-Method.md)?
 
