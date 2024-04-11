@@ -49,7 +49,7 @@ class Persona : Cliente{
 
 ## ¿Por qué Refactorizar?
 
-Para describir esta técnica, usaremos los términos de [HideDelegate.md](HideDelegate.md)[ocultar delegado](https://github.com/IES-Rafael-Alberti/EDES-P4.3.1-Refactoring/blob/main/RefactoringPattern/HideDelegate.md), que son:
+Para describir esta técnica, usaremos los términos de [HideDelegate.md](HideDelegate.md), que son:
 
 * El servidor o server es el objeto al que el cliente tiene acceso directo.
 
