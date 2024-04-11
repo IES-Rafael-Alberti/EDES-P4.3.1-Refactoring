@@ -1,5 +1,5 @@
-## Encapsular campo
-# Problema
+# Encapsular campo
+## Problema
 Tienes un campo público.
 ``` Kotlin
 class Person {
@@ -7,7 +7,7 @@ class Person {
 }
 ```
 
-# Solución
+## Solución
 Haga que el campo sea privado y cree métodos de acceso para él.
 
 ``` Kotlin
