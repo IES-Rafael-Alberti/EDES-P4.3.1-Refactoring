@@ -1,4 +1,4 @@
-# Renombrar Método (Rename Method)
+# Esconder Método (Hide Method)
 
 ## Problema
 
