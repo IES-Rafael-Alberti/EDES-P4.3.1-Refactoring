@@ -37,9 +37,9 @@ A veces, acceder directamente a un campo privado dentro de una clase no es lo su
 ## Beneficiós
 * El acceso indirecto a los campos es cuando se actúa sobre un campo a través de métodos de acceso (getters y setters). Este enfoque es mucho más flexible que el acceso directo a los campos.
 
-** En primer lugar, puede realizar operaciones complejas cuando se establecen o reciben datos en el campo. La inicialización diferida y la validación de los valores de campo se implementan fácilmente dentro de los captadores y establecedores de campos.
+* En primer lugar, puede realizar operaciones complejas cuando se establecen o reciben datos en el campo. La inicialización diferida y la validación de los valores de campo se implementan fácilmente dentro de los captadores y establecedores de campos.
 
-** En segundo lugar, y lo que es más importante, puede redefinir getters y setters en subclases.
+* En segundo lugar, y lo que es más importante, puede redefinir getters y setters en subclases.
 
 * Tiene la opción de no implementar un establecedor para un campo en absoluto. El valor del campo se especificará solo en el constructor, lo que hará que el campo sea inalterable durante toda la vida útil del objeto.
 
