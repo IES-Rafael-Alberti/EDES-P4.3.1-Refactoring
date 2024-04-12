@@ -4,7 +4,7 @@
 
 Es una clase, método, campo o parámetro sin uso.
 
-![](https://refactoring.guru/images/refactoring/content/smells/speculative-generality-01.png?id=c804fce5c6c5c34b4d9389fcb2aa60aa)
+![](/CodeSmell/assets/speculative-generality-01.png)
 
 ## Razones del problema
 
@@ -23,7 +23,7 @@ Como resultado el código se vuelve difícil de entender y de mantener.
 
 - Los campos que no se usen pueden simplemente ser eliminados.
 
-![](https://refactoring.guru/images/refactoring/content/smells/speculative-generality-02.png?id=e9d0e8a6170b6d0d0be9cca44175fe44)
+![](/CodeSmell/assets/speculative-generality-02.png)
 
 ## Beneficios
 
