@@ -12,15 +12,15 @@ Estate atento a las clases que se usan muchas veces juntas. Una clase bien hecha
 
 ## Tratamiento
 
-- La solución más simple es usar Move Method y Move Field para mover partes de una clase a la clase en la que estas partes son usadas. Pero esto solo funciona si realmente la primera clase no lo necesita.
+- La solución más simple es usar [Move Method](/RefactoringPattern/MoveMethod.md) y [Movimiento de Campos](//RefactoringPattern/MoveField.md) para mover partes de una clase a la clase en la que estas partes son usadas. Pero esto solo funciona si realmente la primera clase no lo necesita.
 
 ![](/CodeSmell/assets/inappropriate-intimacy-02.png)
 
-- Otra solución es usar Extract Class y Hide Delegate en la clase para hacer  relaciones de código que sean "oficiales".
+- Otra solución es usar [Extracción de clases](/RefactoringPattern/ExtractClass.md) y [Ocultar Delegado](/RefactoringPattern/HideDelegate.md) en la clase para hacer  relaciones de código que sean "oficiales".
 
-- Si las clases son mutuamente interdependientes, deberías usar cambiar la asociación bidireccional a unidireccional.
+- Si las clases son mutuamente interdependientes, deberías usar [Change Bidirectional Association to Unidirectional](/RefactoringPattern/changeBidirectionalAssociationToUnidirectional.md).
 
-- Si esta "intimidad" es entre una subclase y su superclase, considera reemplazar delegación mediante la herencia.
+- Si esta "intimidad" es entre una subclase y su superclase, considera [Replace Delegation with Inheritance](/RefactoringPattern/ReplaceDelegationwithInheritance.md).
 
 ![](/CodeSmell/assets/inappropriate-intimacy-03.png)
 
