@@ -3,6 +3,7 @@
 ## SIGNOS Y SINTOMAS
 Hay más de tres o cuatro parámetros para un método.
 
+![](/CodeSmell/assets/long-parameter-list-01.png)
 
 ## RAZONES DEL PROBLEMA
  Una lista larga de parámetros puede ocurrir cuando se juntan varios algoritmos en un método. Una lista larga puede haber sido creada para controlar de qué manera se ejecutará el algoritmo.
@@ -18,6 +19,7 @@ Hay más de tres o cuatro parámetros para un método.
 
 - Pero si estós parámetros vienen de fuentes diferentes, puedes pasarlo como un único parámetro objeto a través de Introducir objeto de parámetro.
 
+![](/CodeSmell/assets/long-parameter-list-02.png)
 
 ## RECOMPENSA
  - Código más legible y corto.
