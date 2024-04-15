@@ -8,20 +8,19 @@ Una clase usa los campos y métodos internos de otra clase.
 
 ## Razones del problema
 
-Estate atento a las clases que pasan demasiado tiempo juntas. Las buenas clases deben saber lo menos posible unas de otras.
-Clases asi son más fáciles de mantener y reutilizar.
+Estate atento a las clases que se usan muchas veces juntas. Una clase bien hecha debe saber lo menos posible de las otras en la medida de lo posible. Clases así son más fáciles de mantener y reutilizar.
 
 ## Tratamiento
 
-- La solución más simple es usar Move Method y Move Field para mover partes de una clase a la clase en la que se usan esas partes. Pero esto funciona solo si la primera clase realmente no necesita estas partes.
+- La solución más simple es usar Move Method y Move Field para mover partes de una clase a la clase en la que estas partes son usadas. Pero esto solo funciona si realmente la primera clase no lo necesita.
 
 ![](/CodeSmell/assets/inappropriate-intimacy-02.png)
 
-- Otra solución es usar Extract Class y Hide Delegate en la clase para hacer que las relaciones de código sean "oficiales".
+- Otra solución es usar Extract Class y Hide Delegate en la clase para hacer  relaciones de código que sean "oficiales".
 
-- Si las clases son mutuamente interdependientes, debe usar cambiar la asociación bidireccional a unidireccional.
+- Si las clases son mutuamente interdependientes, deberías usar cambiar la asociación bidireccional a unidireccional.
 
-- Si esta "intimidad" es entre una subclase y la superclase, considera reemplazar esta delegación mediante la herencia.
+- Si esta "intimidad" es entre una subclase y su superclase, considera reemplazar delegación mediante la herencia.
 
 ![](/CodeSmell/assets/inappropriate-intimacy-03.png)
 
@@ -29,5 +28,5 @@ Clases asi son más fáciles de mantener y reutilizar.
 
 - Mejora la organización del código.
 
-- Simplifica el soporte y la reutilización de código.
+- Simplifica el mantenimiento y la reutilización de código.
 
