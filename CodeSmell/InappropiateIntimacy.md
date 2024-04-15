@@ -4,7 +4,7 @@
 
 Una clase usa los campos y métodos internos de otra clase.
 
-![](https://refactoring.guru/images/refactoring/content/smells/inappropriate-intimacy-02.png?id=3f23c8df6eb8cf91b46e39fa912ff85c)
+![](/CodeSmell/assets/inappropriate-intimacy-01.png)
 
 ## Razones del problema
 
@@ -15,13 +15,15 @@ Clases asi son más fáciles de mantener y reutilizar.
 
 - La solución más simple es usar Move Method y Move Field para mover partes de una clase a la clase en la que se usan esas partes. Pero esto funciona solo si la primera clase realmente no necesita estas partes.
 
+![](/CodeSmell/assets/inappropriate-intimacy-02.png)
+
 - Otra solución es usar Extract Class y Hide Delegate en la clase para hacer que las relaciones de código sean "oficiales".
 
 - Si las clases son mutuamente interdependientes, debe usar cambiar la asociación bidireccional a unidireccional.
 
 - Si esta "intimidad" es entre una subclase y la superclase, considera reemplazar esta delegación mediante la herencia.
 
-![](https://refactoring.guru/images/refactoring/content/smells/inappropriate-intimacy-03.png?id=de33e2285073feaabd1a81cffdcd386c)
+![](/CodeSmell/assets/inappropriate-intimacy-03.png)
 
 ## Beneficios
 
