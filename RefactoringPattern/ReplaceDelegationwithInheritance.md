@@ -3,12 +3,12 @@
 ## Problema
 Una clase contiene muchos métodos simples que delegan a todos los métodos de otra clase.
 
-![Reemplazar Delegación con Herencia - Antes](https://refactoring.guru/images/refactoring/diagrams/Replace%20Delegation%20with%20Inheritance%20-%20Before.png)
+![Reemplazar Delegación con Herencia - Antes](/RefactoringPattern/assets/Replace Delegation with Inheritance-01.png)
 
 ## Solución
 Hacer que la clase sea una heredera delegada, lo que hace que los métodos de delegación sean innecesarios.
 
-![Reemplazar Delegación con Herencia - Después](https://refactoring.guru/images/refactoring/diagrams/Replace%20Delegation%20with%20Inheritance%20-%20After.png)
+![Reemplazar Delegación con Herencia - Después](/RefactoringPattern/assets/Replace Delegation with Inheritance-02.png)
 
 ## Por qué Refactorizar
 
