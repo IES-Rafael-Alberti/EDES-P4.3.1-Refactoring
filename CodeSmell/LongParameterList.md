@@ -13,11 +13,11 @@ Hay más de tres o cuatro parámetros para un método.
  Es difícil entender estas listas, que se vuelven contradictorias y difíciles de usar a medida que crecen. En lugar de una lista larga de parámetros, un método puede usar los datos de su propio objeto. Si el objeto actual no contiene los datos necesarios, otro objeto (que obtendrá los datos necesarios) se puede pasar como parámetro del método.
 
 ## TRATAMIENTO
- - Comprueba qué valores son pasados por parámetros. Si alguno de los argumentos son solo resultados de llamadas de métodos a otro objeto, usa Reemplazar parámetro con llamada a método. Este objeto puede colocarse en el campo de su propia clase o pasarse como un parámetro de método.
+ - Comprueba qué valores son pasados por parámetros. Si alguno de los argumentos son solo resultados de llamadas de métodos a otro objeto, usa [Reemplazar Parámetro por Llamada a Método](/RefactoringPattern/ReplaceParameterWithMethodCall.md). Este objeto puede colocarse en el campo de su propia clase o pasarse como un parámetro de método.
 
-- En lugar de pasar un grupo de datos recibidos de otro objeto como parámetros, pasa el objeto al método, usando Preserve Whole Object.
+- En lugar de pasar un grupo de datos recibidos de otro objeto como parámetros, pasa el objeto al método, usando [Preservar Objeto Completo](/RefactoringPattern/PreserveWholeObject.md).
 
-- Pero si estós parámetros vienen de fuentes diferentes, puedes pasarlo como un único parámetro objeto a través de Introducir objeto de parámetro.
+- Pero si estós parámetros vienen de fuentes diferentes, puedes pasarlo como un único parámetro objeto a través de [Introducir Objeto de Parámetro](/RefactoringPattern/IntroduceParameterObject.md).
 
 ![](/CodeSmell/assets/long-parameter-list-02.png)
 
