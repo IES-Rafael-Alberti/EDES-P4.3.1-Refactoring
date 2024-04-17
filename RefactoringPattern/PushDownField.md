@@ -3,12 +3,12 @@
 ## Problema
 ¿Es un campo utilizado solo en algunas subclases?
 
-![Empuje hacia abajo el campo - Antes](./assets/Push%20Down%20Field%20-%20Before.png)
+![Push-Down-Field-Before.png](assets%2FPush-Down-Field-Before.png)
 
 ## Solución
 Mueva el campo a estas subclases.
 
-![Empuje hacia abajo el campo - Después](./assets/Push%20Down%20Field%20-%20Before.png)
+![Push-Down-Field- After.png](assets%2FPush-Down-Field-%20After.png)
 
 ## ¿Por qué refactorizar?
 Aunque estaba previsto utilizar un campo de forma universal para todas las clases, en realidad el campo sólo se utiliza en algunas subclases. Esta situación puede producirse, por ejemplo, cuando las funciones previstas no dan resultado.
