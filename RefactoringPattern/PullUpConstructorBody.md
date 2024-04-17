@@ -4,6 +4,8 @@
 Tus subclases tienen constructores con código que es principalmente idéntico.
 
 ```  
+open class Employee
+
 class Manager(
     val name: String,
     val id: String,
@@ -17,7 +19,7 @@ class Manager(
 ## Solución
 Cree un constructor de superclase y mueva el código que es igual en las subclases a él. Llame al constructor de la superclase en los constructores de la subclase.
 
-``` Java 
+``` 
 class Manager(
     name: String,
     id: String,
