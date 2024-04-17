@@ -1,4 +1,5 @@
-# Push Down Field 
+# Push Down Field / Empuje hacia abajo /
+
 
 ## Problema
 ¿Es un campo utilizado solo en algunas subclases?
@@ -24,4 +25,4 @@ Esto también puede ocurrir debido a la extracción (o eliminación) de parte de
 ## Cómo refactorizar
 1. Declare un campo en todas las subclases necesarias.
 
-2. Elimine el campo de la superclase..
+2. Elimine el campo de la superclase.
