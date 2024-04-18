@@ -11,7 +11,7 @@ class Manager(
     val id: String,
     val grade: Int
 ) : Employee() {
-    // ...
+    // .... 
 }
 ```
 >kotlin
